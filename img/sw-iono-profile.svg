@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<rect width="760" height="520" fill="#fff"/>
+<rect x="90" y="413.4" width="470" height="18.9" fill="#b8e0ff" opacity=".55"/>
+<text x="572" y="441.9" font-size="15" font-weight="700" fill="#223">D 영역 (60~90 km)</text>
+<text x="572" y="459.9" font-size="13" fill="#556">낮에만 · 단파를 흡수</text>
+<rect x="90" y="375.7" width="470" height="37.7" fill="#c9f2d2" opacity=".55"/>
+<text x="572" y="379.0" font-size="15" font-weight="700" fill="#223">E 영역 (90~150 km)</text>
+<text x="572" y="397.0" font-size="13" fill="#556">낮에 강함</text>
+<rect x="90" y="312.9" width="470" height="62.9" fill="#ffe6b3" opacity=".55"/>
+<text x="572" y="331.9" font-size="15" font-weight="700" fill="#223">F1 영역 (150~250 km)</text>
+<text x="572" y="349.9" font-size="13" fill="#556">낮에만 따로 보임</text>
+<rect x="90" y="155.7" width="470" height="157.1" fill="#ffd0c9" opacity=".55"/>
+<text x="572" y="231.3" font-size="15" font-weight="700" fill="#223">F2 영역 (250~500 km)</text>
+<text x="572" y="249.3" font-size="13" fill="#556">장거리 단파의 주역</text>
+<line x1="90" y1="470" x2="560" y2="470" stroke="#333" stroke-width="1.5"/>
+<line x1="90" y1="470" x2="90" y2="30" stroke="#333" stroke-width="1.5"/>
+<line x1="85" y1="470.0" x2="90" y2="470.0" stroke="#333"/>
+<text x="81" y="475.0" font-size="13" text-anchor="end" fill="#333">0</text>
+<line x1="85" y1="407.1" x2="90" y2="407.1" stroke="#333"/>
+<text x="81" y="412.1" font-size="13" text-anchor="end" fill="#333">100</text>
+<line x1="85" y1="344.3" x2="90" y2="344.3" stroke="#333"/>
+<text x="81" y="349.3" font-size="13" text-anchor="end" fill="#333">200</text>
+<line x1="85" y1="281.4" x2="90" y2="281.4" stroke="#333"/>
+<text x="81" y="286.4" font-size="13" text-anchor="end" fill="#333">300</text>
+<line x1="85" y1="218.6" x2="90" y2="218.6" stroke="#333"/>
+<text x="81" y="223.6" font-size="13" text-anchor="end" fill="#333">400</text>
+<line x1="85" y1="155.7" x2="90" y2="155.7" stroke="#333"/>
+<text x="81" y="160.7" font-size="13" text-anchor="end" fill="#333">500</text>
+<line x1="85" y1="92.9" x2="90" y2="92.9" stroke="#333"/>
+<text x="81" y="97.9" font-size="13" text-anchor="end" fill="#333">600</text>
+<line x1="85" y1="30.0" x2="90" y2="30.0" stroke="#333"/>
+<text x="81" y="35.0" font-size="13" text-anchor="end" fill="#333">700</text>
+<line x1="90.0" y1="470" x2="90.0" y2="475" stroke="#333"/>
+<text x="90.0" y="491" font-size="13" text-anchor="middle" fill="#333">10<tspan dy="-6" font-size="10">2</tspan></text>
+<line x1="207.5" y1="470" x2="207.5" y2="475" stroke="#333"/>
+<text x="207.5" y="491" font-size="13" text-anchor="middle" fill="#333">10<tspan dy="-6" font-size="10">3</tspan></text>
+<line x1="325.0" y1="470" x2="325.0" y2="475" stroke="#333"/>
+<text x="325.0" y="491" font-size="13" text-anchor="middle" fill="#333">10<tspan dy="-6" font-size="10">4</tspan></text>
+<line x1="442.5" y1="470" x2="442.5" y2="475" stroke="#333"/>
+<text x="442.5" y="491" font-size="13" text-anchor="middle" fill="#333">10<tspan dy="-6" font-size="10">5</tspan></text>
+<line x1="560.0" y1="470" x2="560.0" y2="475" stroke="#333"/>
+<text x="560.0" y="491" font-size="13" text-anchor="middle" fill="#333">10<tspan dy="-6" font-size="10">6</tspan></text>
+<text x="325.0" y="512" font-size="14" text-anchor="middle" fill="#222">전자 밀도 (개 / cm³)</text>
+<text x="24" y="250.0" font-size="14" text-anchor="middle" fill="#222" transform="rotate(-90 24 250.0)">높이 (km)</text>
+<path d="M90.0,413.4 L207.5,407.1 L278.0,400.9 L242.7,394.6 L219.2,382.0 L266.2,363.1 L348.5,344.3 L442.5,312.9 L483.6,281.4 L495.4,250.0 L489.5,218.6 L466.0,155.7 L448.4,92.9 L430.8,30.0 " fill="none" stroke="#d62828" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="M90.0,432.3 L148.8,426.0 L207.5,419.7 L278.0,413.4 L395.5,407.1 L442.5,400.9 L436.6,394.6 L448.4,382.0 L466.0,363.1 L489.5,344.3 L513.0,325.4 L542.4,300.3 L560.0,281.4 L554.1,256.3 L536.5,218.6 L513.0,155.7 L495.4,92.9 L477.8,30.0 " fill="none" stroke="#1d4ed8" stroke-width="3.2" stroke-linejoin="round"/>
+<rect x="104" y="36" width="110" height="58" rx="8" fill="#fff" stroke="#bbb"/>
+<line x1="116" y1="56" x2="146" y2="56" stroke="#1d4ed8" stroke-width="3.2"/><text x="154" y="61" font-size="14" fill="#222">낮</text>
+<line x1="116" y1="80" x2="146" y2="80" stroke="#d62828" stroke-width="3.2"/><text x="154" y="85" font-size="14" fill="#222">밤</text>
+<text x="552.0" y="271.4" font-size="13" text-anchor="end" fill="#1d4ed8" font-weight="700">F2 봉우리</text>
+<text x="554" y="460" font-size="11" text-anchor="end" fill="#888">대략적인 모양</text>
+</svg>

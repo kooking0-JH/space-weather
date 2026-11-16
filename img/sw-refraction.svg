@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<rect width="760" height="500" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<path d="M0,360 Q380,330 760,360 L760,398 L0,398 z" fill="#c8e6b0"/>
+<text x="380" y="388" font-size="14" text-anchor="middle" fill="#3a5a20">지구 표면</text>
+<path d="M0,215 Q380,170 760,215 L760,245 Q380,200 0,245 z" fill="#9ed8a6" opacity=".7"/>
+<path d="M0,95 Q380,40 760,95 L760,140 Q380,85 0,140 z" fill="#f6b8a8" opacity=".7"/>
+<text x="748" y="236" font-size="15" font-weight="700" text-anchor="end" fill="#1f5130">E층</text>
+<text x="748" y="128" font-size="15" font-weight="700" text-anchor="end" fill="#7a2a16">F층</text>
+<path d="M52,352 L60,300 L68,352 z" fill="none" stroke="#333" stroke-width="2.5"/><circle cx="60" cy="298" r="4" fill="#333"/>
+<text x="40" y="345" font-size="13" text-anchor="end" fill="#222">송신</text>
+<path d="M62,300 C120,220 190,200 230,205 C270,210 320,260 360,340" fill="none" stroke="#16a34a" stroke-width="3.2" marker-end="url(#ar)"/>
+<path d="M62,300 C150,140 300,95 400,100 C500,105 600,220 650,330" fill="none" stroke="#2563eb" stroke-width="3.2" marker-end="url(#ar)"/>
+<path d="M62,300 C170,120 330,60 420,30 C450,20 470,12 490,4" fill="none" stroke="#dc2626" stroke-width="3.2" marker-end="url(#ar)"/>
+<rect x="20" y="404" width="720" height="88" rx="8" fill="#fff" stroke="#bbb"/>
+<line x1="36" y1="424" x2="62" y2="424" stroke="#16a34a" stroke-width="3.2"/><text x="72" y="429" font-size="14" fill="#222">① 낮은 주파수: E층에서 휘어 가까운 곳으로</text>
+<line x1="36" y1="448" x2="62" y2="448" stroke="#2563eb" stroke-width="3.2"/><text x="72" y="453" font-size="14" fill="#222">② 높은 주파수: F층까지 올라가 먼 곳으로</text>
+<line x1="36" y1="472" x2="62" y2="472" stroke="#dc2626" stroke-width="3.2"/><text x="72" y="477" font-size="14" fill="#222">③ 너무 높은 주파수(MUF 초과): 뚫고 나감</text>
+<text x="20" y="24" font-size="13" fill="#555">전파는 층에서 “튕기는” 것이 아니라</text><text x="20" y="42" font-size="13" fill="#555">조금씩 굴절되며 휘어 내려옵니다</text>
+</svg>
