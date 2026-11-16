@@ -6,7 +6,7 @@
 - 용어 사전: `glossary.html` — 우주기상 용어 77개, 한글·영어 검색
 
 ## 근거 자료와 그림 출처
-그림은 대부분 아래 자료에서 원본 그대로 잘라 썼으며, 그림마다 출처를 표기했습니다. 잘라 쓴 그림의 권리는 원저작자와 원 제공 기관에 있습니다. 재배포 조건이 분명하지 않은 그림 3장(QST 기사 그림 2장, The Aerospace Corporation 그림)은 원본 대신 같은 내용을 한글로 다시 그린 SVG(`img/sw-*.svg`)로 바꾸었고, 언론 보도 사진은 넣지 않았습니다.
+실제 관측 영상과 데이터 그래프는 아래 자료에서 원본 그대로 잘라 썼으며 그림마다 출처를 표기했습니다(권리는 원저작자와 원 제공 기관에 있음). 설명용 도식 19장은 원 자료 내용을 바탕으로 한글로 새로 그린 SVG(`img/sw-*.svg`)이며, 그림마다 내용 근거를 밝혔습니다. 언론 보도 사진은 넣지 않았습니다.
 
 - [Z] Yihua Zheng, "Introduction of Space Weather", NASA GSFC SW REDI, 2014
 - [T] Anders Tjulin, "Space Weather", EISCAT Scientific Association, 2013

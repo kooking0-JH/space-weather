@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="900" height="440" fill="#fff"/>
+<text x="450.0" y="32.0" font-size="14" text-anchor="middle" fill="#475569" font-weight="700">주파수가 높아질수록 →</text>
+<rect x="20" y="50" width="275" height="70" rx="12" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="157.0" y="82.0" font-size="19" text-anchor="middle" fill="#fff" font-weight="800">HF 단파</text>
+<text x="157.0" y="106.0" font-size="12" text-anchor="middle" fill="#fff" font-weight="400">3~30 MHz</text>
+<rect x="20" y="132" width="275" height="250" rx="10" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+<circle cx="40.0" cy="172.0" r="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="54.0" y="177.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">플레어 X선</text>
+<text x="54.0" y="199.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ 낮 쪽 단파 소실</text>
+<circle cx="40.0" cy="242.0" r="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="54.0" y="247.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">고에너지 양성자</text>
+<text x="54.0" y="269.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ 극관 흡수(PCA)</text>
+<circle cx="40.0" cy="312.0" r="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="54.0" y="317.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">지자기 활동</text>
+<text x="54.0" y="339.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ 전리층 폭풍</text>
+<rect x="313" y="50" width="275" height="70" rx="12" fill="#16a34a" stroke="none" stroke-width="1.5"/>
+<text x="450.0" y="82.0" font-size="19" text-anchor="middle" fill="#fff" font-weight="800">VHF</text>
+<text x="450.0" y="106.0" font-size="12" text-anchor="middle" fill="#fff" font-weight="400">30~300 MHz</text>
+<rect x="313" y="132" width="275" height="250" rx="10" fill="#f8fafc" stroke="#16a34a" stroke-width="1.5"/>
+<circle cx="333.0" cy="172.0" r="5" fill="#16a34a" stroke="none" stroke-width="1"/>
+<text x="347.0" y="177.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">고에너지 양성자</text>
+<text x="347.0" y="199.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ 극관 흡수</text>
+<circle cx="333.0" cy="242.0" r="5" fill="#16a34a" stroke="none" stroke-width="1"/>
+<text x="347.0" y="247.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">지자기 폭풍</text>
+<circle cx="333.0" cy="312.0" r="5" fill="#16a34a" stroke="none" stroke-width="1"/>
+<text x="347.0" y="317.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">플레어·CME의 태양 전파 방출</text>
+<rect x="606" y="50" width="275" height="70" rx="12" fill="#9333ea" stroke="none" stroke-width="1.5"/>
+<text x="743.0" y="82.0" font-size="19" text-anchor="middle" fill="#fff" font-weight="800">UHF · GPS</text>
+<text x="743.0" y="106.0" font-size="12" text-anchor="middle" fill="#fff" font-weight="400">0.3~3 GHz (GPS 1.2~1.6 GHz)</text>
+<rect x="606" y="132" width="275" height="250" rx="10" fill="#f8fafc" stroke="#9333ea" stroke-width="1.5"/>
+<circle cx="626.0" cy="172.0" r="5" fill="#9333ea" stroke="none" stroke-width="1"/>
+<text x="640.0" y="177.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">고에너지 입자</text>
+<text x="640.0" y="199.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ GPS 위성 부품 오류</text>
+<circle cx="626.0" cy="242.0" r="5" fill="#9333ea" stroke="none" stroke-width="1"/>
+<text x="640.0" y="247.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">지자기·전리층 폭풍</text>
+<text x="640.0" y="269.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ 신틸레이션</text>
+<circle cx="626.0" cy="312.0" r="5" fill="#9333ea" stroke="none" stroke-width="1"/>
+<text x="640.0" y="317.0" font-size="14" text-anchor="start" fill="#111" font-weight="800">강한 태양 전파 버스트</text>
+<text x="640.0" y="339.0" font-size="13" text-anchor="start" fill="#334155" font-weight="400">→ 잡음</text>
+<text x="450.0" y="420.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">각 주파수대에 영향을 주는 우주기상 현상</text>
+</svg>

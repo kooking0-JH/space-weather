@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="900" height="560" fill="#fff"/>
+<circle cx="70.0" cy="200.0" r="120" fill="url(#sun)" stroke="none" stroke-width="1"/>
+<text x="70.0" y="210.0" font-size="22" text-anchor="middle" fill="#5a1a00" font-weight="800">태양</text>
+<line x1="195.0" y1="137.0" x2="640.0" y2="177.5" stroke="#f59e0b" stroke-width="5" marker-end="url(#a)"/>
+<text x="410.0" y="142.4" font-size="15" text-anchor="middle" fill="#f59e0b" font-weight="800">플레어 — 빛·X선</text>
+<line x1="195.0" y1="200.0" x2="640.0" y2="200.0" stroke="#dc2626" stroke-width="5" marker-end="url(#a)"/>
+<text x="410.0" y="186.0" font-size="15" text-anchor="middle" fill="#dc2626" font-weight="800">코로나 질량 방출(CME) — 플라스마 구름</text>
+<line x1="195.0" y1="263.0" x2="640.0" y2="222.5" stroke="#2563eb" stroke-width="5" marker-end="url(#a)"/>
+<text x="410.0" y="229.6" font-size="15" text-anchor="middle" fill="#2563eb" font-weight="800">태양풍 — 늘 부는 플라스마 흐름</text>
+<path d="M700,200 m0,0 C700,120 820,110 840,200 C820,290 700,280 700,200" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-dasharray="4 3" opacity="1"/>
+<path d="M700,200 C690,90 870,70 880,200 C870,330 690,310 700,200" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-dasharray="4 3" opacity="1"/>
+<circle cx="720.0" cy="200.0" r="34" fill="url(#earth)" stroke="none" stroke-width="1"/>
+<text x="720.0" y="258.0" font-size="14" text-anchor="middle" fill="#222" font-weight="700">지구와 자기장</text>
+<text x="450.0" y="360.0" font-size="17" text-anchor="middle" fill="#111" font-weight="800">영향을 받는 것들</text>
+<rect x="20" y="380" width="135" height="160" rx="10" fill="#f1f5ff" stroke="#9db4e8" stroke-width="1.5"/>
+<text x="87.0" y="420.0" font-size="28" text-anchor="middle" fill="#222" font-weight="400">🛰</text>
+<text x="87.0" y="455.0" font-size="14" text-anchor="middle" fill="#222" font-weight="800">인공위성·GPS</text>
+<text x="87.0" y="482.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">방사선에 부품 손상</text>
+<text x="87.0" y="498.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">신호가 흔들림</text>
+<rect x="165" y="380" width="135" height="160" rx="10" fill="#f1f5ff" stroke="#9db4e8" stroke-width="1.5"/>
+<text x="232.0" y="420.0" font-size="28" text-anchor="middle" fill="#222" font-weight="400">👩‍🚀</text>
+<text x="232.0" y="455.0" font-size="14" text-anchor="middle" fill="#222" font-weight="800">우주정거장·우주인</text>
+<text x="232.0" y="482.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">고에너지 입자에</text>
+<text x="232.0" y="498.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">피폭</text>
+<rect x="310" y="380" width="135" height="160" rx="10" fill="#f1f5ff" stroke="#9db4e8" stroke-width="1.5"/>
+<text x="377.0" y="420.0" font-size="28" text-anchor="middle" fill="#222" font-weight="400">🛢</text>
+<text x="377.0" y="455.0" font-size="14" text-anchor="middle" fill="#222" font-weight="800">송유관</text>
+<text x="377.0" y="482.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">유도 전류로</text>
+<text x="377.0" y="498.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">부식이 빨라짐</text>
+<rect x="455" y="380" width="135" height="160" rx="10" fill="#f1f5ff" stroke="#9db4e8" stroke-width="1.5"/>
+<text x="522.0" y="420.0" font-size="28" text-anchor="middle" fill="#222" font-weight="400">⚡</text>
+<text x="522.0" y="455.0" font-size="14" text-anchor="middle" fill="#222" font-weight="800">전력망</text>
+<text x="522.0" y="482.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">유도 전류로</text>
+<text x="522.0" y="498.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">변압기·정전</text>
+<rect x="600" y="380" width="135" height="160" rx="10" fill="#f1f5ff" stroke="#9db4e8" stroke-width="1.5"/>
+<text x="667.0" y="420.0" font-size="28" text-anchor="middle" fill="#222" font-weight="400">✈</text>
+<text x="667.0" y="455.0" font-size="14" text-anchor="middle" fill="#222" font-weight="800">항공 통신</text>
+<text x="667.0" y="482.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">극항로 단파가</text>
+<text x="667.0" y="498.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">끊김</text>
+<rect x="745" y="380" width="135" height="160" rx="10" fill="#f1f5ff" stroke="#9db4e8" stroke-width="1.5"/>
+<text x="812.0" y="420.0" font-size="28" text-anchor="middle" fill="#222" font-weight="400">🚰</text>
+<text x="812.0" y="455.0" font-size="14" text-anchor="middle" fill="#222" font-weight="800">상수도</text>
+<text x="812.0" y="482.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">전기가 끊기면</text>
+<text x="812.0" y="498.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">정수·배수가 멈춤</text>
+</svg>

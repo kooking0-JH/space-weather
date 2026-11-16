@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="900" height="520" fill="#fff"/>
+<rect x="90" y="434.2" width="770" height="25.8" fill="#e0f2fe"/>
+<rect x="90" y="352.5" width="770" height="81.7" fill="#e0e7ff"/>
+<rect x="90" y="266.5" width="770" height="86.0" fill="#ede9fe"/>
+<rect x="90" y="30.0" width="770" height="236.5" fill="#fae8ff"/>
+<line x1="90.0" y1="434.2" x2="860.0" y2="434.2" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="96.0" y="428.2" font-size="12" text-anchor="start" fill="#475569" font-weight="400">대류권계면</text>
+<line x1="90.0" y1="352.5" x2="860.0" y2="352.5" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="96.0" y="346.5" font-size="12" text-anchor="start" fill="#475569" font-weight="400">성층권계면</text>
+<line x1="90.0" y1="266.5" x2="860.0" y2="266.5" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="96.0" y="260.5" font-size="12" text-anchor="start" fill="#475569" font-weight="400">중간권계면</text>
+<line x1="90.0" y1="460.0" x2="860.0" y2="460.0" stroke="#333" stroke-width="2"/>
+<line x1="90.0" y1="460.0" x2="90.0" y2="30.0" stroke="#333" stroke-width="2"/>
+<text x="82.0" y="465.0" font-size="12" text-anchor="end" fill="#222" font-weight="400">0</text>
+<text x="82.0" y="357.5" font-size="12" text-anchor="end" fill="#222" font-weight="400">50</text>
+<text x="82.0" y="250.0" font-size="12" text-anchor="end" fill="#222" font-weight="400">100</text>
+<text x="82.0" y="142.5" font-size="12" text-anchor="end" fill="#222" font-weight="400">150</text>
+<text x="82.0" y="35.0" font-size="12" text-anchor="end" fill="#222" font-weight="400">200</text>
+<text x="30.0" y="245.0" font-size="13" text-anchor="middle" fill="#222" font-weight="700">고도 (km)</text>
+<text x="90.0" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">-90°</text>
+<text x="218.3" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">-60°</text>
+<text x="346.7" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">-30°</text>
+<text x="475.0" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">0°</text>
+<text x="603.3" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">30°</text>
+<text x="731.7" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">60°</text>
+<text x="860.0" y="480.0" font-size="12" text-anchor="middle" fill="#222" font-weight="400">90°</text>
+<text x="475.0" y="504.0" font-size="13" text-anchor="middle" fill="#222" font-weight="700">위도</text>
+<path d="M261.1111111111111,460 l25,-30 l25,30 z" fill="#94a3b8"/>
+<path d="M312.44444444444446,449.25 q15,-20 0,-40 q-15,-20 0,-40" fill="none" stroke="#0ea5e9" stroke-width="2.5" opacity="1"/>
+<text x="322.4" y="421.3" font-size="12" text-anchor="start" fill="#0369a1" font-weight="700">산악파가 부서짐</text>
+<ellipse cx="740.2222222222222" cy="391.2" rx="45" ry="20" fill="none" stroke="#4f46e5" stroke-width="2.5"/>
+<text x="740.2" y="396.2" font-size="12" text-anchor="middle" fill="#3730a3" font-weight="700">극 소용돌이</text>
+<ellipse cx="817.2222222222222" cy="281.55" rx="40" ry="7" fill="#c7d2fe" stroke="#6366f1"/>
+<text x="817.2" y="303.6" font-size="12" text-anchor="middle" fill="#4338ca" font-weight="700">극중간권 구름</text>
+<path d="M502.9,438.5 L502.9,435.9 L502.6,433.3 L502.1,430.8 L501.2,428.2 L500.0,425.6 L498.6,423.0 L497.0,420.4 L495.3,417.9 L493.5,415.3 L491.6,412.7 L489.9,410.1 L488.3,407.5 L487.0,405.0 L486.0,402.4 L485.4,399.8 L485.2,397.2 L485.5,394.6 L486.3,392.1 L487.5,389.5 L489.2,386.9 L491.2,384.3 L493.6,381.7 L496.2,379.2 L498.9,376.6 L501.6,374.0 L504.3,371.4 L506.7,368.8 L508.8,366.3 L510.5,363.7 L511.6,361.1 L512.2,358.5 L512.1,355.9 L511.4,353.4 L510.1,350.8 L508.1,348.2 L505.6,345.6 L502.6,343.0 L499.2,340.5 L495.6,337.9 L492.0,335.3 L488.3,332.7 L485.0,330.1 L481.9,327.6 L479.4,325.0 L477.5,322.4 L476.3,319.8 L475.8,317.2 L476.3,314.7 L477.5,312.1 L479.6,309.5 L482.3,306.9 L485.8,304.3 L489.8,301.8 L494.1,299.2 L498.7,296.6 L503.3,294.0 L507.7,291.4 L511.8,288.9 L515.3,286.3 L518.2,283.7 L520.3,281.1 L521.4,278.5 L521.6,276.0 L520.7,273.4 L518.8,270.8 L516.0,268.2 L512.3,265.6 L507.9,263.1 L502.9,260.5 L497.5,257.9 L492.0,255.3 L486.5,252.7 L481.3,250.2 L476.6,247.6 L472.7,245.0 L469.5,242.4 L467.5,239.8 L466.5,237.3 L466.7,234.7" fill="none" stroke="#16a34a" stroke-width="2.5" opacity="1"/>
+<text x="526.4" y="249.3" font-size="12" text-anchor="start" fill="#166534" font-weight="700">1차 중력파가 부서짐</text>
+<text x="586.4" y="184.8" font-size="12" text-anchor="start" fill="#166534" font-weight="400">2차 중력파</text>
+<path d="M496.3888888888889,197.7 q20,-15 40,0 q20,15 40,0" fill="none" stroke="#16a34a" stroke-width="2" opacity="1"/>
+<path d="M346.66666666666663,212.75 C389.44444444444446,169.75 432.22222222222223,255.75 475.0,212.75" fill="none" stroke="#0d9488" stroke-width="3" opacity="1"/>
+<text x="410.8" y="245.0" font-size="13" text-anchor="middle" fill="#0f766e" font-weight="800">조석</text>
+<path d="M132.77777777777777,94.5 q20,-14 40,0 q20,14 40,0" fill="none" stroke="#9333ea" stroke-width="2" opacity="1.0"/>
+<path d="M146.77777777777777,94.5 q20,-14 40,0 q20,14 40,0" fill="none" stroke="#9333ea" stroke-width="2" opacity="0.8"/>
+<path d="M160.77777777777777,94.5 q20,-14 40,0 q20,14 40,0" fill="none" stroke="#9333ea" stroke-width="2" opacity="0.6"/>
+<path d="M174.77777777777777,94.5 q20,-14 40,0 q20,14 40,0" fill="none" stroke="#9333ea" stroke-width="2" opacity="0.3999999999999999"/>
+<text x="218.3" y="60.1" font-size="12" text-anchor="middle" fill="#7e22ce" font-weight="700">이동성 전리층 교란</text>
+<ellipse cx="423.6666666666667" cy="116.0" rx="9" ry="22" fill="#fda4af" stroke="#e11d48"/>
+<ellipse cx="475.0" cy="83.75" rx="9" ry="22" fill="#fda4af" stroke="#e11d48"/>
+<ellipse cx="526.3333333333333" cy="105.25" rx="9" ry="22" fill="#fda4af" stroke="#e11d48"/>
+<text x="475.0" y="40.8" font-size="12" text-anchor="middle" fill="#be123c" font-weight="700">플라스마 거품(적도)</text>
+<line x1="774.4" y1="30.0" x2="774.4" y2="137.5" stroke="#f59e0b" stroke-width="2" marker-end="url(#a)"/>
+<line x1="786.4" y1="30.0" x2="786.4" y2="137.5" stroke="#f59e0b" stroke-width="2" marker-end="url(#a)"/>
+<line x1="798.4" y1="30.0" x2="798.4" y2="137.5" stroke="#f59e0b" stroke-width="2" marker-end="url(#a)"/>
+<line x1="810.4" y1="30.0" x2="810.4" y2="137.5" stroke="#f59e0b" stroke-width="2" marker-end="url(#a)"/>
+<text x="795.8" y="159.0" font-size="12" text-anchor="middle" fill="#b45309" font-weight="700">고에너지 입자 강하</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="900" height="430" fill="#fff"/>
+<rect x="40" y="30" width="230" height="80" rx="14" fill="#f59e0b" stroke="none" stroke-width="1.5"/>
+<text x="155.0" y="66.0" font-size="19" text-anchor="middle" fill="#fff" font-weight="800">플레어</text>
+<text x="155.0" y="90.0" font-size="13" text-anchor="middle" fill="#fff" font-weight="400">빛의 폭발</text>
+<rect x="40" y="150" width="230" height="80" rx="14" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="155.0" y="186.0" font-size="19" text-anchor="middle" fill="#fff" font-weight="800">CME</text>
+<text x="155.0" y="210.0" font-size="13" text-anchor="middle" fill="#fff" font-weight="400">물질의 폭발</text>
+<rect x="40" y="270" width="230" height="80" rx="14" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="155.0" y="306.0" font-size="19" text-anchor="middle" fill="#fff" font-weight="800">코로나 구멍 고속풍</text>
+<text x="155.0" y="330.0" font-size="13" text-anchor="middle" fill="#fff" font-weight="400">+ CIR</text>
+<rect x="580" y="20" width="290" height="60" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="725.0" y="46.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">전파 소실 폭풍</text>
+<text x="725.0" y="68.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">R 등급</text>
+<rect x="580" y="100" width="290" height="60" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="725.0" y="126.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">양성자 방사선 폭풍</text>
+<text x="725.0" y="148.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">S 등급</text>
+<rect x="580" y="180" width="290" height="60" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="725.0" y="206.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">전자 복사 증가</text>
+<text x="725.0" y="228.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">위성 내부 대전</text>
+<rect x="580" y="260" width="290" height="60" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="725.0" y="286.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">지자기 폭풍 — 강할 수 있음</text>
+<text x="725.0" y="308.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">G 등급</text>
+<rect x="580" y="340" width="290" height="60" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="725.0" y="366.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">지자기 폭풍 — 중간 정도까지</text>
+<text x="725.0" y="388.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">G1~G2 수준</text>
+<path d="M272,70 C420,70 430,50 576,50" fill="none" stroke="#f59e0b" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<path d="M272,70 C420,70 430,130 576,130" fill="none" stroke="#f59e0b" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<path d="M272,190 C420,190 430,130 576,130" fill="none" stroke="#dc2626" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<path d="M272,190 C420,190 430,210 576,210" fill="none" stroke="#dc2626" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<path d="M272,190 C420,190 430,290 576,290" fill="none" stroke="#dc2626" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<path d="M272,310 C420,310 430,210 576,210" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<path d="M272,310 C420,310 430,370 576,370" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#a)" opacity="1"/>
+<text x="450.0" y="418.0" font-size="12" text-anchor="middle" fill="#64748b" font-weight="400">태양의 세 가지 교란이 각각 어떤 폭풍으로 이어지는지</text>
+</svg>

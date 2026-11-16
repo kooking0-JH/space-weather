@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="820" height="520" fill="#0b1020"/>
+<circle cx="360" cy="260" r="220" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="360.0" cy="260.0" r="34" fill="url(#sun)" stroke="none" stroke-width="1"/>
+<text x="360.0" y="318.0" font-size="14" text-anchor="middle" fill="#fde68a" font-weight="800">태양</text>
+<circle cx="580.0" cy="260.0" r="12" fill="url(#earth)" stroke="none" stroke-width="1"/>
+<text x="580.0" y="290.0" font-size="13" text-anchor="middle" fill="#bfdbfe" font-weight="800">지구</text>
+<circle cx="538.0" cy="260.0" r="7" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<text x="538.0" y="246.0" font-size="14" text-anchor="middle" fill="#fff" font-weight="800">L1</text>
+<circle cx="622.0" cy="260.0" r="7" fill="#60a5fa" stroke="none" stroke-width="1"/>
+<text x="622.0" y="246.0" font-size="14" text-anchor="middle" fill="#fff" font-weight="800">L2</text>
+<circle cx="140.0" cy="260.0" r="7" fill="#60a5fa" stroke="none" stroke-width="1"/>
+<text x="140.0" y="246.0" font-size="14" text-anchor="middle" fill="#fff" font-weight="800">L3</text>
+<circle cx="470.0" cy="69.5" r="7" fill="#60a5fa" stroke="none" stroke-width="1"/>
+<text x="470.0" y="55.5" font-size="14" text-anchor="middle" fill="#fff" font-weight="800">L4</text>
+<circle cx="470.0" cy="450.5" r="7" fill="#60a5fa" stroke="none" stroke-width="1"/>
+<text x="470.0" y="436.5" font-size="14" text-anchor="middle" fill="#fff" font-weight="800">L5</text>
+<rect x="600" y="60" width="200" height="120" rx="10" fill="#17213f" stroke="#f59e0b" stroke-width="1.5"/>
+<text x="700.0" y="88.0" font-size="15" text-anchor="middle" fill="#fcd34d" font-weight="800">L1 지점</text>
+<text x="700.0" y="112.0" font-size="12" text-anchor="middle" fill="#e2e8f0" font-weight="400">지구에서 태양 쪽 150만 km</text>
+<text x="700.0" y="132.0" font-size="12" text-anchor="middle" fill="#e2e8f0" font-weight="400">ACE·SOHO가 있는 곳</text>
+<text x="700.0" y="152.0" font-size="12" text-anchor="middle" fill="#e2e8f0" font-weight="400">태양풍을 약 1시간 먼저 잼</text>
+<line x1="640.0" y1="182.0" x2="536.0" y2="252.0" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="410.0" y="505.0" font-size="12" text-anchor="middle" fill="#94a3b8" font-weight="400">태양–지구 계의 라그랑주 점 L1~L5 (거리 비율은 실제와 다름: L1은 실제로 지구에 훨씬 가까움)</text>
+</svg>

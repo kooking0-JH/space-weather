@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="900" height="520" fill="#0b1020"/>
+<circle cx="0.0" cy="0.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="131.0" cy="71.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="262.0" cy="142.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="393.0" cy="213.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="524.0" cy="284.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="655.0" cy="355.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="786.0" cy="426.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="17.0" cy="497.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="148.0" cy="48.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="279.0" cy="119.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="410.0" cy="190.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="541.0" cy="261.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="672.0" cy="332.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="803.0" cy="403.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="34.0" cy="474.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="165.0" cy="25.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="296.0" cy="96.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="427.0" cy="167.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="558.0" cy="238.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="689.0" cy="309.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="820.0" cy="380.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="51.0" cy="451.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="182.0" cy="2.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="313.0" cy="73.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="444.0" cy="144.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="575.0" cy="215.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="706.0" cy="286.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="837.0" cy="357.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="68.0" cy="428.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="199.0" cy="499.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="330.0" cy="50.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="461.0" cy="121.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="592.0" cy="192.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="723.0" cy="263.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="854.0" cy="334.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="85.0" cy="405.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="216.0" cy="476.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="347.0" cy="27.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="478.0" cy="98.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="609.0" cy="169.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="740.0" cy="240.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="871.0" cy="311.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="102.0" cy="382.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="233.0" cy="453.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="364.0" cy="4.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="495.0" cy="75.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="626.0" cy="146.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="757.0" cy="217.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="888.0" cy="288.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="119.0" cy="359.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="250.0" cy="430.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="381.0" cy="501.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="512.0" cy="52.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="643.0" cy="123.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="774.0" cy="194.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="5.0" cy="265.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="136.0" cy="336.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="267.0" cy="407.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="398.0" cy="478.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="529.0" cy="29.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="660.0" cy="100.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="791.0" cy="171.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="22.0" cy="242.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="153.0" cy="313.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="284.0" cy="384.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="415.0" cy="455.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="546.0" cy="6.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="677.0" cy="77.0" r="1.4" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="808.0" cy="148.0" r="1.8" fill="#fff" stroke="none" stroke-width="1"/>
+<circle cx="39.0" cy="219.0" r="1.0" fill="#fff" stroke="none" stroke-width="1"/>
+<line x1="880.0" y1="110.0" x2="800.0" y2="110.0" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="880.0" y1="200.0" x2="800.0" y2="200.0" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="880.0" y1="290.0" x2="800.0" y2="290.0" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="880.0" y1="380.0" x2="800.0" y2="380.0" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<text x="840.0" y="440.0" font-size="13" text-anchor="middle" fill="#cbd5e1" font-weight="400">성간 물질의 흐름</text>
+<path d="M720,40 Q600,260 720,480" fill="none" stroke="#f472b6" stroke-width="3" stroke-dasharray="9 6" opacity="1"/>
+<text x="735.0" y="70.0" font-size="15" text-anchor="start" fill="#f9a8d4" font-weight="800">활 충격파?</text>
+<text x="735.0" y="90.0" font-size="12" text-anchor="start" fill="#f9a8d4" font-weight="400">(또는 완만한 활 파동 —</text>
+<text x="735.0" y="106.0" font-size="12" text-anchor="start" fill="#f9a8d4" font-weight="400">아직 확정되지 않음)</text>
+<path d="M20,120 C220,60 520,70 580,260 C520,450 220,460 20,400" fill="none" stroke="#38bdf8" stroke-width="3" opacity="1"/>
+<text x="560.0" y="150.0" font-size="15" text-anchor="end" fill="#7dd3fc" font-weight="800">태양권 계면</text>
+<ellipse cx="300" cy="260" rx="170" ry="140" fill="none" stroke="#facc15" stroke-width="3"/>
+<text x="300.0" y="112.0" font-size="15" text-anchor="middle" fill="#fde047" font-weight="800">종단 충격파</text>
+<text x="505.0" y="330.0" font-size="14" text-anchor="middle" fill="#e2e8f0" font-weight="700">태양권 덮개</text>
+<text x="505.0" y="348.0" font-size="12" text-anchor="middle" fill="#cbd5e1" font-weight="400">(느려진 태양풍)</text>
+<circle cx="300.0" cy="260.0" r="12" fill="url(#sun)" stroke="none" stroke-width="1"/>
+<text x="300.0" y="385.0" font-size="13" text-anchor="middle" fill="#fde68a" font-weight="700">태양(가운데)</text>
+<line x1="320.0" y1="260.0" x2="400.0" y2="260.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="317.3" y1="270.0" x2="386.6" y2="310.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="310.0" y1="277.3" x2="350.0" y2="346.6" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="300.0" y1="280.0" x2="300.0" y2="360.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="290.0" y1="277.3" x2="250.0" y2="346.6" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="282.7" y1="270.0" x2="213.4" y2="310.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="280.0" y1="260.0" x2="200.0" y2="260.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="282.7" y1="250.0" x2="213.4" y2="210.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="290.0" y1="242.7" x2="250.0" y2="173.4" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="300.0" y1="240.0" x2="300.0" y2="160.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="310.0" y1="242.7" x2="350.0" y2="173.4" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="317.3" y1="250.0" x2="386.6" y2="210.0" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="420.0" y="190.0" font-size="13" text-anchor="middle" fill="#fde68a" font-weight="700">태양풍</text>
+<text x="70.0" y="270.0" font-size="14" text-anchor="start" fill="#cbd5e1" font-weight="700">← 태양권 꼬리</text>
+<circle cx="600.0" cy="205.0" r="6" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="610.0" y="197.0" font-size="12" text-anchor="start" fill="#fff" font-weight="700">보이저 1호</text>
+<circle cx="585.0" cy="345.0" r="6" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="595.0" y="337.0" font-size="12" text-anchor="start" fill="#fff" font-weight="700">보이저 2호</text>
+<text x="450.0" y="505.0" font-size="12" text-anchor="middle" fill="#94a3b8" font-weight="400">태양권: 태양풍이 성간 물질 속에 파낸 거대한 거품 (크기 비율은 실제와 다름)</text>
+</svg>

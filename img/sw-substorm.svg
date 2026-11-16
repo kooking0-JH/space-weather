@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker><radialGradient id="sun" cx=".45" cy=".45" r=".6"><stop offset="0" stop-color="#fff7c2"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#e24a12"/></radialGradient><radialGradient id="earth" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#7cc7ff"/><stop offset=".7" stop-color="#1d6fd1"/><stop offset="1" stop-color="#0b3d7a"/></radialGradient></defs>
+<rect width="900" height="330" fill="#fff"/>
+<rect x="20" y="40" width="280" height="250" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="160.0" y="30.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">① 에너지 저장</text>
+<path d="M60,157 C100,125 210.0,153.0 250.0,155.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M60,173 C100,205 210.0,177.0 250.0,175.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M60,157 C100,105 210.0,141.0 250.0,145.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M60,173 C100,225 210.0,189.0 250.0,185.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M60,157 C100,85 210.0,129.0 250.0,135.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M60,173 C100,245 210.0,201.0 250.0,195.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<circle cx="60.0" cy="165.0" r="14" fill="url(#earth)" stroke="none" stroke-width="1"/>
+<text x="160.0" y="270.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">남향 IMF로 꼬리가 늘어남</text>
+<rect x="315" y="40" width="280" height="250" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="455.0" y="30.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">② 꼬리에서 재결합</text>
+<path d="M355,157 C395,125 532.5,153.0 572.5,155.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M355,173 C395,205 532.5,177.0 572.5,175.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M355,157 C395,105 532.5,141.0 572.5,145.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M355,173 C395,225 532.5,189.0 572.5,185.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M355,157 C395,85 532.5,129.0 572.5,135.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M355,173 C395,245 532.5,201.0 572.5,195.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<circle cx="355.0" cy="165.0" r="14" fill="url(#earth)" stroke="none" stroke-width="1"/>
+<path d="M495,155 L515,175 M515,155 L495,175" stroke="#dc2626" stroke-width="4"/>
+<text x="505.0" y="205.0" font-size="13" text-anchor="middle" fill="#b91c1c" font-weight="800">X점</text>
+<text x="455.0" y="270.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">늘어난 자기력선이 끊어짐</text>
+<rect x="610" y="40" width="280" height="250" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="750.0" y="30.0" font-size="15" text-anchor="middle" fill="#222" font-weight="800">③ 폭발적으로 풀림</text>
+<path d="M650,157 C690,125 767.0,153.0 807.0,155.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M650,173 C690,205 767.0,177.0 807.0,175.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M650,157 C690,105 767.0,141.0 807.0,145.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M650,173 C690,225 767.0,189.0 807.0,185.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M650,157 C690,85 767.0,129.0 807.0,135.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<path d="M650,173 C690,245 767.0,201.0 807.0,195.0" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity="1"/>
+<circle cx="650.0" cy="165.0" r="14" fill="url(#earth)" stroke="none" stroke-width="1"/>
+<ellipse cx="835" cy="165" rx="34" ry="20" fill="none" stroke="#dc2626" stroke-width="3"/>
+<line x1="870.0" y1="165.0" x2="888.0" y2="165.0" stroke="#dc2626" stroke-width="3" marker-end="url(#a)"/>
+<text x="835.0" y="205.0" font-size="12" text-anchor="middle" fill="#b91c1c" font-weight="700">플라스모이드</text>
+<line x1="740.0" y1="165.0" x2="680.0" y2="165.0" stroke="#f59e0b" stroke-width="3" marker-end="url(#a)"/>
+<text x="710.0" y="115.0" font-size="12" text-anchor="middle" fill="#b45309" font-weight="700">입자가 지구로</text>
+<text x="750.0" y="270.0" font-size="12" text-anchor="middle" fill="#475569" font-weight="400">꼬리가 짧아지고 오로라가 밝아짐</text>
+</svg>
