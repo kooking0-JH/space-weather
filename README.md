@@ -6,10 +6,10 @@
 - 용어 사전: `glossary.html` — 우주기상 용어 77개, 한글·영어 검색
 
 ## 근거 자료와 그림 출처
-그림은 아래 자료에서 원본 그대로 잘라 썼으며, 그림마다 출처를 표기했습니다. 모든 그림의 권리는 원저작자와 원 제공 기관에 있습니다.
+그림은 대부분 아래 자료에서 원본 그대로 잘라 썼으며, 그림마다 출처를 표기했습니다. 잘라 쓴 그림의 권리는 원저작자와 원 제공 기관에 있습니다. 재배포 조건이 분명하지 않은 그림 3장(QST 기사 그림 2장, The Aerospace Corporation 그림)은 원본 대신 같은 내용을 한글로 다시 그린 SVG(`img/sw-*.svg`)로 바꾸었고, 언론 보도 사진은 넣지 않았습니다.
 
 - [Z] Yihua Zheng, "Introduction of Space Weather", NASA GSFC SW REDI, 2014
 - [T] Anders Tjulin, "Space Weather", EISCAT Scientific Association, 2013
 - [B] Thomas Berger, "What is Space Weather?", CU Boulder SWx TREC, SmallSat Conference, 2020
 - [P] Ian Poole G3YWX, "Understanding Solar Indices", QST, 2002년 9월
-- [G] "Glossary of Space Weather related terms"
+- [G] "Glossary of Space Weather related terms" (작성 기관·연도 표기 없음)
