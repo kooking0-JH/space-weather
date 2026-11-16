@@ -142,3 +142,4 @@ footer{text-align:center;color:var(--mute);font-size:.9rem;padding:30px 16px 90p
   .ft-count{order:-1;width:100%;text-align:center}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.fig .src.ref::before{content:none}
