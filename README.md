@@ -1,1 +1,15 @@
-# space-weather
+# 우주기상(Space Weather) 해설
+
+태양에서 출발한 빛·입자·자기장이 지구 주변 우주를 흔들고, 그 영향이 단파 통신·GPS·위성·전력망까지 이어지는 과정을 아마추어 무선사의 눈높이에서 풀어 쓴 한국어 해설입니다.
+
+- 본문: `index.html` — 0~11장, 상단 고정 목차, 고장 트리 9단계 넘겨 보기
+- 용어 사전: `glossary.html` — 우주기상 용어 77개, 한글·영어 검색
+
+## 근거 자료와 그림 출처
+그림은 아래 자료에서 원본 그대로 잘라 썼으며, 그림마다 출처를 표기했습니다. 모든 그림의 권리는 원저작자와 원 제공 기관에 있습니다.
+
+- [Z] Yihua Zheng, "Introduction of Space Weather", NASA GSFC SW REDI, 2014
+- [T] Anders Tjulin, "Space Weather", EISCAT Scientific Association, 2013
+- [B] Thomas Berger, "What is Space Weather?", CU Boulder SWx TREC, SmallSat Conference, 2020
+- [P] Ian Poole G3YWX, "Understanding Solar Indices", QST, 2002년 9월
+- [G] "Glossary of Space Weather related terms"
