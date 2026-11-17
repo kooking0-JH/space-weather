@@ -9,49 +9,49 @@
 </head>
 <body>
 
+<div class="wrap">
 <header class="hero">
-  <img class="hero-bg" src="img/zh-01.jpg" alt="">
-  <div class="hero-in">
-    <p class="kicker">아마추어 무선사를 위한 우주 환경 해설</p>
-    <h1>우주기상<span>Space Weather</span></h1>
-    <p class="lead">태양에서 출발한 빛·입자·자기장이 지구 주변 우주를 흔들고, 그 흔들림이 단파 통신·GPS·위성·전력망까지 닿는 과정을 처음부터 끝까지 따라가 봅니다.</p>
-    <p class="hero-src">배경 그림 출처: Y. Zheng, 「Introduction of Space Weather」(NASA GSFC, SW REDI 2014) 표지</p>
-    <div class="hero-btns">
-      <a class="btn" href="#s0">처음부터 읽기 ↓</a>
-      <a class="btn ghost" href="glossary.html">우주기상 용어 사전 →</a>
-    </div>
-  </div>
+  <div class="eyebrow">우주 환경 이야기 · 전파와 태양</div>
+  <h1>우주기상 — 태양에서 무선국까지</h1>
+  <p class="lede">태양에서 출발한 빛·입자·자기장은 지구 주변 우주를 흔들고, 그 흔들림은 단파 통신·GPS·위성·전력망까지 닿습니다. 이 해설은 그 사슬을 원인에서 결과까지 차례로 따라갑니다.</p>
+  <ul class="qs">
+    <li>플레어가 터지면 단파는 왜 몇 분 만에 끊길까?</li>
+    <li>오로라가 남쪽에서 보일수록 큰 폭풍인 이유는?</li>
+    <li>“플럭스 150, K 2”는 밴드 상태를 어떻게 말해 줄까?</li>
+  </ul>
+  <p class="lede">12개 단원에 관측 그림과 도식 60여 개, 고장 트리 9단계가 함께 나옵니다.</p>
+  <div class="hero-links"><a class="btn alt" href="glossary.html">우주기상 용어 사전 →</a></div>
 </header>
 
 <nav class="toc" id="toc" aria-label="목차">
-  <div class="toc-in">
-    <a href="#s0">0 들어가며</a>
-    <a href="#s1">1 무대와 크기</a>
-    <a href="#s2">2 태양</a>
-    <a href="#s3">3 교란원</a>
-    <a href="#s4">4 지구의 반응</a>
-    <a href="#s5">5 도착 시간표</a>
-    <a href="#s6">6 피해와 영향</a>
-    <a href="#s7">7 고장 트리</a>
-    <a href="#s8">8 관측·예보</a>
-    <a href="#s9">9 태양 지수</a>
-    <a href="#s10">10 용어 사전</a>
-    <a href="#s11">11 출처</a>
-  </div>
+  <b>목차</b>
+  <ol start="0">
+    <li><a href="#s0">들어가며 — 우주는 비어 있지 않다</a></li>
+    <li><a href="#s1">무대와 크기 감각</a></li>
+    <li><a href="#s2">근원 — 자기를 띤 별, 태양</a></li>
+    <li><a href="#s3">다섯 가지 교란원</a></li>
+    <li><a href="#s4">지구의 반응</a></li>
+    <li><a href="#s5">도착 시간표 — 무엇이 언제 오나</a></li>
+    <li><a href="#s6">피해와 영향</a></li>
+    <li><a href="#s7">한눈에 보는 우주기상 고장 트리</a></li>
+    <li><a href="#s8">관측과 예보</a></li>
+    <li><a href="#s9">무선사를 위한 태양 지수 읽기</a></li>
+    <li><a href="#s10">우주기상 용어 사전</a></li>
+    <li><a href="#s11">출처와 더 읽을거리</a></li>
+  </ol>
 </nav>
 
 <main>
 
 <!-- ===================================================== 0 -->
 <section id="s0">
-<p class="chap">제0장</p>
-<h2>들어가며 — 우주는 비어 있지 않다</h2>
+<h2><span class="no">0</span> 들어가며 — 우주는 비어 있지 않다 <span class="en">Introduction</span></h2>
 
 <p>밤하늘을 보면 우주는 텅 빈 검은 공간처럼 보입니다. 하지만 지구와 태양 사이, 그리고 행성들 사이의 공간은 결코 비어 있지 않습니다. 그곳은 전기를 띤 입자들로 가득 차 있고, 그 입자들은 태양이 만든 자기장에 실려 끊임없이 흘러갑니다. 이 흐름이 잔잔할 때도 있고 폭풍처럼 몰아칠 때도 있습니다. 지구의 날씨처럼 <b>우주에도 날씨가 있는</b> 셈이고, 이것을 <b>우주기상(Space Weather)</b>이라고 부릅니다.</p>
 
 <h3>물질의 제4상태, 플라스마</h3>
 <p>물질은 보통 고체·액체·기체 세 가지 상태로 배웁니다. 기체에 에너지를 계속 주면 원자 속 전자가 떨어져 나가서 <b>양이온과 자유 전자가 뒤섞인 기체</b>가 됩니다. 이것이 <b>플라스마</b>입니다. 전체로 보면 양전하와 음전하의 양이 거의 같아서 전기적으로 중성에 가깝지만(준중성), 입자 하나하나가 전기를 띠고 있어서 전기장·자기장에 함께 반응하는 <b>집단 행동</b>을 보입니다.</p>
-<div class="callout">
+<div class="note">
   <b>놀라운 사실 하나.</b> 우주에 있는 보통 물질의 약 <b>99%</b>가 플라스마 상태입니다. 별의 내부와 대기, 성운, 성간 물질, 그리고 지구의 <b>전리층과 그 위쪽</b>이 모두 플라스마입니다. 플라스마가 자연적으로 생기지 않는 나머지 1%의 공간에 오히려 우리가 살고 있는 것입니다.
 </div>
 
@@ -64,36 +64,35 @@
 <h3>우주기상의 정의 — 네 가지 관점</h3>
 <p>우주기상을 정의하는 문장은 기관마다 조금씩 다릅니다. 나란히 놓고 보면 공통점과 강조점이 잘 드러납니다.</p>
 
-<div class="defs">
-  <div class="def"><p class="who">미국 국가우주기상계획(NSWP)</p><p>태양과 우주 환경의 변하는 상태로서, 우주와 지상의 기술 시스템의 성능·신뢰성에 영향을 주거나 사람의 생명·건강을 위협할 수 있는 것.</p></div>
-  <div class="def"><p class="who">유럽우주국(ESA) ①</p><p>태양과 태양풍 때문에 생기는 지구 <b>자기권·전리층·열권</b>의 환경 조건으로서, 우주·지상 시스템과 서비스의 작동과 신뢰성에 영향을 주거나 재산·사람의 건강을 위협할 수 있는 것.</p></div>
-  <div class="def"><p class="who">유럽우주국(ESA) ②</p><p>우주의 플라스마, 자기장, 복사, 입자 흐름이 사람이 만든 시스템에 어떤 영향을 주는지 다루는 분야. 태양 말고도 <b>은하 우주선</b>처럼 태양 밖에서 오는 원인도 지구 근처 환경을 바꾸므로 우주기상에 포함할 수 있다.</p></div>
-  <div class="def"><p class="who">Eastwood (2008)</p><p>태양과 태양풍, 지구의 자기권·전리층·열권의 상태로서, 우주와 지상 기술 시스템의 성능과 신뢰성에 영향을 주고 사람의 생명이나 건강을 위협할 수 있는 것.</p></div>
-  <div class="def wide"><p class="who">T. Berger (2020, 소형위성 학회용 정의)</p><p>지구 근처 우주, 즉 <b>저궤도(LEO)부터 정지궤도(GEO)와 달 주변 공간</b>까지에서 일어나는 다음 다섯 가지의 변화.</p>
-    <ul class="tight"><li>광자 복사(빛·X선·자외선)</li><li>하전 입자 복사(양성자·전자)</li><li>자기장</li><li>플라스마 밀도</li><li>상층 대기의 조성</li></ul>
+<div class="sum">
+  <div><p><b class="h">미국 국가우주기상계획(NSWP)</b></p><p>태양과 우주 환경의 변하는 상태로서, 우주와 지상의 기술 시스템의 성능·신뢰성에 영향을 주거나 사람의 생명·건강을 위협할 수 있는 것.</p></div>
+  <div><p><b class="h">유럽우주국(ESA) ①</b></p><p>태양과 태양풍 때문에 생기는 지구 <b>자기권·전리층·열권</b>의 환경 조건으로서, 우주·지상 시스템과 서비스의 작동과 신뢰성에 영향을 주거나 재산·사람의 건강을 위협할 수 있는 것.</p></div>
+  <div><p><b class="h">유럽우주국(ESA) ②</b></p><p>우주의 플라스마, 자기장, 복사, 입자 흐름이 사람이 만든 시스템에 어떤 영향을 주는지 다루는 분야. 태양 말고도 <b>은하 우주선</b>처럼 태양 밖에서 오는 원인도 지구 근처 환경을 바꾸므로 우주기상에 포함할 수 있다.</p></div>
+  <div><p><b class="h">Eastwood (2008)</b></p><p>태양과 태양풍, 지구의 자기권·전리층·열권의 상태로서, 우주와 지상 기술 시스템의 성능과 신뢰성에 영향을 주고 사람의 생명이나 건강을 위협할 수 있는 것.</p></div>
+  <div class="wide"><p><b class="h">T. Berger (2020, 소형위성 학회용 정의)</b></p><p>지구 근처 우주, 즉 <b>저궤도(LEO)부터 정지궤도(GEO)와 달 주변 공간</b>까지에서 일어나는 다음 다섯 가지의 변화.</p>
+    <ul><li>광자 복사(빛·X선·자외선)</li><li>하전 입자 복사(양성자·전자)</li><li>자기장</li><li>플라스마 밀도</li><li>상층 대기의 조성</li></ul>
     <p>원인은 두 가지입니다. 지구의 자기장·대기가 <b>태양에서 나온 것들과 상호작용</b>하는 것, 그리고 <b>아래쪽 대기에서 위로 올라오는 교란</b>입니다.</p></div>
 </div>
 
 <p>정리하면, 우주기상은 <b>“태양(과 일부 우주 공간)에서 시작된 변화가 지구 주변 우주 환경을 바꾸고, 그 결과 우리 기술과 건강에 영향을 주는 것”</b>입니다. 이 해설은 바로 이 사슬을 원인에서 결과까지 차례로 따라갑니다.</p>
 
 <h3>우주기상을 일으키는 주요 원인</h3>
-<div class="grid2">
-  <div class="card"><p class="tag driver">외부 동인</p><ul class="tight">
+<div class="sum">
+  <div><b class="h">외부 동인</b><ul>
     <li>태양 활동과 태양풍 — 플레어, 코로나 질량 방출(CME), 고에너지 입자(SEP), 코로나 구멍 고속풍</li>
     <li>은하 우주선</li>
     <li>유성체와 우주 쓰레기</li></ul></div>
-  <div class="card"><p class="tag resp">동인이면서 지구의 반응</p><ul class="tight">
+  <div><b class="h">동인이면서 지구의 반응</b><ul>
     <li>태양 고에너지 입자의 자기권 진입</li>
     <li>지구 자기권의 지자기 폭풍과 서브스톰</li>
     <li>복사대(반 앨런대)</li></ul></div>
 </div>
-<p class="note">이 가운데 가장 큰 동인은 단연 <b>태양</b>입니다. 그래서 이 해설의 중심도 태양입니다.</p>
+<p class="small">이 가운데 가장 큰 동인은 단연 <b>태양</b>입니다. 그래서 이 해설의 중심도 태양입니다.</p>
 </section>
 
 <!-- ===================================================== 1 -->
 <section id="s1">
-<p class="chap">제1장</p>
-<h2>무대와 크기 감각</h2>
+<h2><span class="no">1</span> 무대와 크기 감각 <span class="en">The Stage</span></h2>
 <p>우주기상이 펼쳐지는 무대는 태양 표면에서 시작해 지구의 고층 대기에서 끝납니다. 그 사이를 크게 네 영역으로 나눕니다.</p>
 
 <ol class="steps">
@@ -114,7 +113,7 @@
   <li><b>활 충격파(가설)</b> — 태양권이 성간 공간을 헤치고 나아가면서 앞에 생길 것으로 생각했던 경계</li>
   <li><b>태양권 꼬리</b> — 배가 물 위를 지나갈 때처럼 뒤로 길게 남는 흔적</li>
 </ul>
-<div class="callout"><b>아직 결론이 나지 않은 경계.</b> 태양권 바깥의 활 충격파는 실제로 있는지 확정되지 않았습니다. 2012년 IBEX 위성 관측에서 태양계가 성간 물질을 지나는 속도가 예상보다 느린 것으로 나와, 뚜렷한 충격파 대신 완만한 <b>활 파동(bow wave)</b>만 생긴다는 해석이 나왔습니다. 그 뒤로 약한 충격파가 있을 수도 있다는 연구도 이어져 지금도 논의 중입니다. 아래 그림에서는 이 경계를 점선으로 표시했습니다.</div>
+<div class="note"><b>아직 결론이 나지 않은 경계.</b> 태양권 바깥의 활 충격파는 실제로 있는지 확정되지 않았습니다. 2012년 IBEX 위성 관측에서 태양계가 성간 물질을 지나는 속도가 예상보다 느린 것으로 나와, 뚜렷한 충격파 대신 완만한 <b>활 파동(bow wave)</b>만 생긴다는 해석이 나왔습니다. 그 뒤로 약한 충격파가 있을 수도 있다는 연구도 이어져 지금도 논의 중입니다. 아래 그림에서는 이 경계를 점선으로 표시했습니다.</div>
 <p>NASA의 보이저 1호와 2호는 이 경계를 실제로 통과한 탐사선입니다. 태양에서 명왕성 궤도의 두 배쯤 되는 거리입니다.</p>
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/sw-heliosphere.svg" alt="태양권의 구조" loading="lazy" decoding="async"></button><figcaption>태양권의 구조. 태양풍이 퍼져 나가다 종단 충격파에서 느려지고, 태양권 덮개를 지나 태양권 계면에서 성간 물질과 맞닿습니다. 보이저 1·2호는 이미 태양권 계면을 지났습니다. 바깥 분홍 점선은 존재가 확정되지 않은 활 충격파(또는 활 파동)입니다.</figcaption></figure>
@@ -122,7 +121,7 @@
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/zh-10.jpg" alt="행성들은 대부분 하나의 평면, 즉 황도면 위에서 태양을 돕니다" loading="lazy" decoding="async"></button><figcaption>행성들은 대부분 하나의 평면, 즉 황도면 위에서 태양을 돕니다. 지구·금성·수성과 함께 STEREO 탐사선의 위치도 보입니다.<span class="src">Y. Zheng, 「Introduction of Space Weather」(NASA GSFC, SW REDI 2014), 슬라이드 10</span></figcaption></figure>
 
 <h3>거리 감각 잡기</h3>
-<div class="tablewrap"><table>
+<div class="tbl"><table>
 <tr><th>기준</th><th>크기</th><th>감각</th></tr>
 <tr><td>1 AU(천문단위)</td><td>약 1억 5천만 km</td><td>지구–태양 평균 거리</td></tr>
 <tr><td>태양 반지름(R<sub>s</sub>)</td><td>695,500 km</td><td>지구 반지름의 약 110배</td></tr>
@@ -134,8 +133,7 @@
 
 <!-- ===================================================== 2 -->
 <section id="s2">
-<p class="chap">제2장</p>
-<h2>근원 — 자기를 띤 별, 태양</h2>
+<h2><span class="no">2</span> 근원 — 자기를 띤 별, 태양 <span class="en">The Sun</span></h2>
 
 <p>태양은 모든 날씨의 에너지원이고, 우주기상도 예외가 아닙니다. 그런데 우주기상에서 중요한 것은 태양의 밝기보다 <b>태양의 자기장</b>입니다. 태양은 거대한 “자기 별”입니다.</p>
 
@@ -145,7 +143,7 @@
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/be-03.jpg" alt="왼쪽은 보통 빛(백색광)으로 본 태양과 흑점 “활동 영역”, 오른쪽은 같은 시각의 자기도(magnetogram)입니다" loading="lazy" decoding="async"></button><figcaption>왼쪽은 보통 빛(백색광)으로 본 태양과 흑점 “활동 영역”, 오른쪽은 같은 시각의 자기도(magnetogram)입니다. 자기도에서 흰색과 검은색이 서로 반대 극성의 자기장입니다.<span class="src">T. Berger, 「What is Space Weather?」(CU Boulder SWx TREC, 2020), 슬라이드 3</span></figcaption></figure>
 
-<div class="callout key">
+<div class="note">
   <b>핵심 원리 — 자기 재결합(magnetic reconnection).</b> 서로 반대 극성의 강한 자기장이 바로 옆에 붙어 있으면 자기력선이 끊어졌다가 다른 짝과 다시 이어지면서 모양이 바뀝니다. 이때 자기장에 저장되어 있던 에너지가 한꺼번에 <b>열, 운동 에너지, 입자 가속</b>으로 바뀝니다. 이것이 태양 폭발 현상의 엔진입니다.
 </div>
 
@@ -163,7 +161,7 @@
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/be-04.jpg" alt="1913년부터의 흑점 주기(15~24주기)와 25주기 예측" loading="lazy" decoding="async"></button><figcaption>1913년부터의 흑점 주기(15~24주기)와 25주기 예측. 2020년 발표 당시는 극소기였고, 25주기의 첫 흑점들이 나타나기 시작한 시점이었습니다.<span class="src">T. Berger, 「What is Space Weather?」(CU Boulder SWx TREC, 2020), 슬라이드 4 · 원 그림: Bhowmik & Nandy, Nature Communications 9, 5209 (2018)</span></figcaption></figure>
 
-<p class="note">그림 속 25주기는 2020년 당시의 예측입니다. 실제 25주기는 예측보다 강하게 진행되어 2024년 전후에 극대기를 맞았습니다.</p>
+<p class="small">그림 속 25주기는 2020년 당시의 예측입니다. 실제 25주기는 예측보다 강하게 진행되어 2024년 전후에 극대기를 맞았습니다.</p>
 
 <h3>100만 K의 코로나와 태양풍</h3>
 <p>태양 표면은 약 6,000 K인데, 그 바깥 대기인 <b>코로나는 100만 K(10<sup>6</sup> K)</b>가 넘습니다. 바깥이 더 뜨거운 이 역설을 만드는 것이 태양 자기장입니다. 이렇게 뜨거운 코로나는 태양 중력으로 붙잡아 둘 수 없어서 바깥으로 계속 흘러나갑니다. 이 흐름이 <b>태양풍</b>입니다. 양성자, 전자, 이온과 함께 <b>태양 자기장을 실은 초음속 플라스마</b>입니다.</p>
@@ -183,8 +181,7 @@
 
 <!-- ===================================================== 3 -->
 <section id="s3">
-<p class="chap">제3장</p>
-<h2>다섯 가지 교란원</h2>
+<h2><span class="no">3</span> 다섯 가지 교란원 <span class="en">Solar Drivers</span></h2>
 <p>태양이 지구에 보내는 “폭풍의 씨앗”은 크게 다섯 가지입니다. 각각 정체도, 도착 시간도, 일으키는 피해도 다릅니다.</p>
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/sw-drivers.svg" alt="태양의 세 가지 교란이 어떤 폭풍으로 이어지는지" loading="lazy" decoding="async"></button><figcaption>태양의 세 가지 교란이 어떤 폭풍으로 이어지는지. 플레어는 전파 소실과 양성자 방사선, CME는 양성자 방사선·전자 복사·강한 지자기 폭풍, 코로나 구멍 고속풍(CIR)은 전자 복사와 중간 규모 지자기 폭풍을 일으킵니다.</figcaption></figure>
@@ -200,7 +197,7 @@
 
 <h4>X선 플레어 등급: A · B · C · M · X</h4>
 <p>플레어의 세기는 정지궤도 기상위성 GOES가 측정한 <b>0.1~0.8 nm 파장의 X선 세기</b>로 등급을 매깁니다. 한 등급 올라갈 때마다 세기가 <b>10배</b>씩 커집니다.</p>
-<div class="tablewrap"><table>
+<div class="tbl"><table>
 <tr><th>등급</th><th>최대 X선 세기(W/m²)</th><th>의미</th></tr>
 <tr><td>A</td><td>10<sup>−8</sup> 미만</td><td>배경 수준</td></tr>
 <tr><td>B</td><td>10<sup>−7</sup> 미만</td><td>약함</td></tr>
@@ -230,7 +227,7 @@
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/be-09.jpg" alt="왼쪽: SDO 위성의 극자외선 영상으로 본 분출" loading="lazy" decoding="async"></button><figcaption>왼쪽: SDO 위성의 극자외선 영상으로 본 분출. 오른쪽: SOHO 코로나그래프로 본 CME.<span class="src">T. Berger, 「What is Space Weather?」(CU Boulder SWx TREC, 2020), 슬라이드 9 · 원 그림: NASA SDO, ESA/NASA SOHO</span></figcaption></figure>
 
-<div class="callout">
+<div class="note">
   <b>예보의 핵심 난제.</b> CME는 태양계의 <b>어느 방향으로나</b> 날아갈 수 있습니다. 그래서 예보관이 가장 먼저 답해야 하는 질문은 “이 CME가 지구에 맞을 것인가?”입니다. 코로나그래프에서 태양을 고리 모양으로 둘러싸며 퍼지는 <b>헤일로 CME</b>는 관측자(지구) 쪽이나 그 반대쪽으로 오는 것입니다. 지구를 향한 헤일로 CME 가운데 상당수가 지자기 폭풍을 일으키는데, 그 비율은 연구에 따라 대략 절반에서 70% 정도로 차이가 납니다(용어집 [G]은 약 70%로 적고 있습니다).
 </div>
 
@@ -263,8 +260,7 @@
 
 <!-- ===================================================== 4 -->
 <section id="s4">
-<p class="chap">제4장</p>
-<h2>지구의 반응</h2>
+<h2><span class="no">4</span> 지구의 반응 <span class="en">Earth's Response</span></h2>
 <p>태양에서 출발한 교란이 지구에 닿으면, 지구의 자기권·전리층·고층 대기가 연쇄적으로 반응합니다. 이 장에서는 지구 쪽에서 일어나는 일을 봅니다.</p>
 
 <h3>지구 자기권 — 지구의 방패</h3>
@@ -287,14 +283,14 @@
 <h3>지자기 폭풍</h3>
 <p><b>지자기 폭풍</b>은 지구 자기권 전체가 일시적으로 크게 흔들리는 현상입니다. 대개 앞에서 본 원인 하나 또는 여럿이 겹쳐서 일어나며, 보통 <b>24~48시간</b>, 길면 3~6일 이어집니다. 가장 강한 폭풍은 빠르고 남향 자기장을 품은 CME가 지구를 정면으로 때릴 때 생깁니다.</p>
 
-<p class="note">참고로 CIR이 일으키는 지자기 폭풍은 기껏해야 중간 규모입니다. 정말 큰 폭풍은 거의 언제나 CME에서 나옵니다(Zheng, 슬라이드 36).</p>
+<p class="small">참고로 CIR이 일으키는 지자기 폭풍은 기껏해야 중간 규모입니다. 정말 큰 폭풍은 거의 언제나 CME에서 나옵니다(Zheng, 슬라이드 36).</p>
 
 <h3>반 앨런 복사대와 “킬러 전자”</h3>
 <p>지구 자기장에는 고에너지 입자가 갇혀 도는 도넛 모양의 띠가 두 겹 있습니다. 이것이 <b>반 앨런 복사대</b>입니다. 안쪽 띠는 주로 양성자, 바깥 띠는 주로 전자로 되어 있습니다. 복사대의 세기는 CME나 지자기 폭풍 때 크게 출렁입니다. 특히 바깥 띠의 <b>상대론적 전자(“킬러 전자”)</b>는 위성 내부로 파고들어 전하를 쌓고, 나중에 방전해서 전자 부품을 망가뜨립니다.</p>
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/be-11.jpg" alt="반 앨런 복사대" loading="lazy" decoding="async"></button><figcaption>반 앨런 복사대. 색은 상대론적 전자의 양으로, 빨강일수록 많습니다. 위쪽에 정지궤도(GEO), 중궤도(MEO), 저궤도(LEO)의 위치가 표시되어 있습니다. GPS 같은 중궤도 위성은 복사대 한가운데를 돕니다.<span class="src">T. Berger, 「What is Space Weather?」(CU Boulder SWx TREC, 2020), 슬라이드 11 · 원 그림: NASA Van Allen Probes, Johns Hopkins 응용물리연구소</span></figcaption></figure>
 
-<div class="callout warn">
+<div class="myth">
   <b>사람이 만든 복사대.</b> 1962년 7월 9일 미국은 고도 400 km에서 1.4메가톤급 핵실험(스타피시 프라임)을 했습니다. 이때 만들어진 인공 복사대는 몇 년 동안 남아서 <b>당시 저궤도 위성의 약 3분의 2</b>를 손상시키거나 파괴했습니다. 오른쪽 그림처럼 자연 복사대도 2015년 성 패트릭의 날 폭풍 같은 큰 지자기 폭풍 때 구조가 크게 바뀝니다.
 </div>
 
@@ -325,8 +321,7 @@
 
 <!-- ===================================================== 5 -->
 <section id="s5">
-<p class="chap">제5장</p>
-<h2>도착 시간표 — 무엇이 언제 오나</h2>
+<h2><span class="no">5</span> 도착 시간표 — 무엇이 언제 오나 <span class="en">Arrival Times</span></h2>
 <p>태양에서 큰 폭발이 일어나면, 그 결과물은 <b>서로 다른 속도로</b> 지구에 도착합니다. 아래는 <b>대표적인 시간 규모</b>입니다. 모든 플레어에 CME나 고에너지 입자가 따라오는 것은 아니고, CME가 지구를 비껴가면 세 번째 도착은 없습니다. 실제 도착 시간도 사건마다 크게 다릅니다. 이 순서를 알면 “방금 단파가 끊긴 것”과 “이틀 뒤 오로라”가 같은 사건에서 나왔다는 것을 이해할 수 있습니다.</p>
 
 <div class="timeline">
@@ -339,7 +334,7 @@
 
 <h3>꼭 구별해야 할 것 — 방사선 폭풍 vs 지자기 폭풍</h3>
 <p>둘 다 “태양 폭풍”이라고 뭉뚱그려 부르기 쉽지만 전혀 다른 현상입니다.</p>
-<div class="tablewrap"><table>
+<div class="tbl"><table>
 <tr><th></th><th>방사선 폭풍</th><th>지자기 폭풍</th></tr>
 <tr><td>원인</td><td>태양 고에너지 입자(SEP)</td><td>CME(또는 CIR)의 충돌</td></tr>
 <tr><td>정체</td><td>빛의 속도에 가까운 양성자·이온의 비</td><td>자기권 전체의 흔들림</td></tr>
@@ -359,8 +354,7 @@
 
 <!-- ===================================================== 6 -->
 <section id="s6">
-<p class="chap">제6장</p>
-<h2>피해와 영향</h2>
+<h2><span class="no">6</span> 피해와 영향 <span class="en">Impacts</span></h2>
 <p>우주기상이 왜 중요할까요? 현대 사회를 떠받치는 기술 대부분이 우주 환경에 노출되어 있기 때문입니다.</p>
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/sw-overview.svg" alt="한눈에 보는 우주기상" loading="lazy" decoding="async"></button><figcaption>한눈에 보는 우주기상. 태양에서 나온 플레어의 빛, CME 플라스마 구름, 태양풍이 지구 자기장을 흔들고, 그 영향이 인공위성·GPS, 우주정거장, 송유관, 전력망, 항공 통신, 상수도(전력에 의존하는 정수 시설)까지 미칩니다.<span class="src ref">참고: Zheng 슬라이드 16의 삽화를 바탕으로 다시 그림</span></figcaption></figure>
@@ -388,12 +382,12 @@
   <li><b>태양 전파 버스트</b>: 드물지만 L밴드(1~2 GHz)에서 아주 강한 전파 버스트가 일어나면, 햇빛이 비치는 쪽 수신기에서 태양 전파 “잡음”이 약한 GNSS 신호를 덮어 신호 대 잡음비가 떨어지고 추적이 끊길 수 있습니다.</li>
 </ul>
 
-<div class="callout">
+<div class="note">
   <b>사례 — 2006년 12월 6일.</b> 태양 극소기였는데도 엄청난 태양 전파 버스트가 일어나 <b>100만 태양 플럭스 단위(SFU)</b>를 넘었습니다. 그때까지 기록된 어떤 사건보다 10배쯤 강했습니다. 강한 시기는 몇 분에서 수십 분 이어졌고, GPS의 L1(1575.42 MHz)과 L2(1227.60 MHz) 신호에 큰 차이를 만들었습니다. 정밀 측량용 민간 이중 주파수 수신기가 가장 큰 피해를 입었습니다. 연구진은 정밀 위치 서비스가 운영 계획에 태양 전파 버스트를 반영해야 한다고 결론지었습니다(Cerruti 외, 2008, Space Weather).
 </div>
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/be-08.jpg" alt="2006년 12월 6일 태양 전파 버스트 때 IGS 관측망 GPS 수신기의 상태(빨강 = 고장, 초록 = 정상)와 아래쪽 1" loading="lazy" decoding="async"></button><figcaption>2006년 12월 6일 태양 전파 버스트 때 IGS 관측망 GPS 수신기의 상태(빨강 = 고장, 초록 = 정상)와 아래쪽 1.6 GHz 태양 전파 세기. 위 지도는 19:14 UTC의 한 순간이고, 아래 그래프의 두 봉우리처럼 전파 세기가 치솟는 동안 햇빛 쪽 수신기에서 장애가 생겼습니다.<span class="src">T. Berger, 「What is Space Weather?」(CU Boulder SWx TREC, 2020), 슬라이드 8 · 원 그림: 코넬대</span></figcaption></figure>
-<p class="note">같은 슬라이드에는 2015년 11월 4일 태양 전파 버스트가 스웨덴 항공 관제 레이더를 교란해 항공편이 멈췄다는 보도도 소개되어 있습니다.</p>
+<p class="small">같은 슬라이드에는 2015년 11월 4일 태양 전파 버스트가 스웨덴 항공 관제 레이더를 교란해 항공편이 멈췄다는 보도도 소개되어 있습니다.</p>
 
 <p>바다에서도 마찬가지입니다. 선박의 항법 오류는 연료 낭비, 좌초, 화물 손상으로 이어질 수 있습니다.</p>
 
@@ -405,9 +399,9 @@
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/tj-18.jpg" alt="북유럽 전력망 지도" loading="lazy" decoding="async"></button><figcaption>북유럽 전력망 지도. 길게 뻗은 고압 송전망이 지자기 유도 전류에 노출됩니다.<span class="src">A. Tjulin, 「Space Weather」(EISCAT, 2013), 슬라이드 18</span></figcaption></figure>
 
-<div class="grid2">
-  <div class="card"><p class="tag resp">1989년 3월 13일, 캐나다 퀘벡</p><ul class="tight"><li>CME 뒤에 온 대형 지자기 폭풍</li><li>긴 송전선 고리와 전기가 잘 통하지 않는 암반 지형</li><li>하이드로퀘벡 전력망의 차단기가 연달아 작동</li><li><b>9시간 정전, 600만 명 피해</b></li></ul></div>
-  <div class="card"><p class="tag resp">2003년 10월 30일, 스웨덴 말뫼</p><ul class="tight"><li>CME 뒤에 온 매우 강한 지자기 폭풍(“핼러윈 폭풍”)</li><li>전력망 안에서 자기장 요동이 공진</li><li><b>1시간 정전, 5만 명 피해</b></li></ul></div>
+<div class="sum">
+  <div><b class="h">1989년 3월 13일, 캐나다 퀘벡</b><ul><li>CME 뒤에 온 대형 지자기 폭풍</li><li>긴 송전선 고리와 전기가 잘 통하지 않는 암반 지형</li><li>하이드로퀘벡 전력망의 차단기가 연달아 작동</li><li><b>9시간 정전, 600만 명 피해</b></li></ul></div>
+  <div><b class="h">2003년 10월 30일, 스웨덴 말뫼</b><ul><li>CME 뒤에 온 매우 강한 지자기 폭풍(“핼러윈 폭풍”)</li><li>전력망 안에서 자기장 요동이 공진</li><li><b>1시간 정전, 5만 명 피해</b></li></ul></div>
 </div>
 <p>이런 사건 이후 전력 회사들은 대응 전략을 바꿨습니다. 큰 폭풍 경보가 나오면 송전 부하를 조정하고 예비 설비를 준비합니다.</p>
 
@@ -444,26 +438,25 @@
 
 <!-- ===================================================== 7 -->
 <section id="s7">
-<p class="chap">제7장</p>
-<h2>한눈에 보는 우주기상 고장 트리</h2>
+<h2><span class="no">7</span> 한눈에 보는 우주기상 고장 트리 <span class="en">Fault Tree</span></h2>
 <p>콜로라도대 T. Berger는 우주기상이 원인에서 실제 피해까지 이어지는 길을 하나의 <b>고장 트리(fault tree)</b>로 정리했습니다. 왼쪽 노란 상자가 <b>원인</b>(태양 자기 주기)과 파란 상자가 <b>지구 대기 순환</b>, 가운데 파란 상자들이 <b>물리적 결과</b>, 주황 상자가 <b>기술 시스템의 고장</b>, 맨 오른쪽 빨간 상자가 <b>사회적 결과</b>입니다. 단계마다 진하게 표시된 길을 따라가 보세요.</p>
-<div class="callout warn"><b>읽기 전에.</b> 이 도식은 “이런 연쇄가 일어날 수 있다”는 <b>가능한 영향 경로의 예시</b>이지, 우주기상이 오면 반드시 이렇게 된다는 예측이 아닙니다. 특히 오른쪽 끝의 결과(자율주행 차량 기능 상실, 항공 교통 중단, 우발적 핵전쟁 위험 등)는 중간에 여러 시스템과 사람의 대응이 끼어드는 최악의 시나리오에 가깝습니다.</div>
+<div class="myth"><b>읽기 전에.</b> 이 도식은 “이런 연쇄가 일어날 수 있다”는 <b>가능한 영향 경로의 예시</b>이지, 우주기상이 오면 반드시 이렇게 된다는 예측이 아닙니다. 특히 오른쪽 끝의 결과(자율주행 차량 기능 상실, 항공 교통 중단, 우발적 핵전쟁 위험 등)는 중간에 여러 시스템과 사람의 대응이 끼어드는 최악의 시나리오에 가깝습니다.</div>
 
 <div class="ft" id="ft">
   <div class="ft-bar">
     <button type="button" class="btn" id="ftPrev" aria-label="이전 단계">◀ 이전 단계</button>
-    <span class="ft-count" id="ftCount" aria-live="polite">1 / 9</span>
+    <span class="status" id="ftCount" aria-live="polite">1 / 9 단계</span>
     <button type="button" class="btn" id="ftNext" aria-label="다음 단계">다음 단계 ▶</button>
   </div>
   <div class="ft-dots" id="ftDots" role="group" aria-label="단계 바로 가기"></div>
   <h3 class="ft-title" id="ftTitle"></h3>
   <p class="ft-desc" id="ftDesc"></p>
-  <figure class="fig ft-fig">
+  <figure class="fig">
     <button type="button" class="zoom" id="ftZoom" aria-label="그림 크게 보기"><img id="ftImg" src="img/be-14.png" alt="우주기상 고장 트리"></button>
     <figcaption><span class="src" id="ftSrc"></span></figcaption>
   </figure>
   <details class="ft-key"><summary>그림 속 영어 상자 이름 풀이 펼쳐 보기</summary>
-  <div class="tablewrap"><table class="small">
+  <div class="tbl"><table>
   <tr><th>그림의 영어</th><th>뜻</th></tr>
   <tr><td>Basal Extreme Ultraviolet &amp; X-ray Radiation</td><td>평상시의 극자외선·X선 복사</td></tr>
   <tr><td>Solar Magnetic Eruptions / Solar Flares / CMEs</td><td>태양 자기 폭발 / 플레어 / 코로나 질량 방출</td></tr>
@@ -493,19 +486,18 @@
 
 <!-- ===================================================== 8 -->
 <section id="s8">
-<p class="chap">제8장</p>
-<h2>관측과 예보</h2>
+<h2><span class="no">8</span> 관측과 예보 <span class="en">Monitoring & Forecasting</span></h2>
 <p>큰 우주기상 사건의 피해를 줄이려면 <b>예보</b>가 필요합니다. 예보에는 정교한 컴퓨터 모델이 쓰이지만, 모델만으로는 부족하고 관측이 반드시 함께해야 합니다. 관측은 모델에 넣을 입력값이 되고, 모델을 바로잡는 기준이 되며, 모델 뒤에 숨은 물리를 이해하게 해 줍니다.</p>
 
 <h3>NOAA 우주기상 등급 — R · S · G</h3>
 <p>미국 해양대기청(NOAA)은 우주기상의 상태와 예상 영향을 알기 쉽게 전하려고 세 가지 등급을 만들었습니다. 각각 1(약함)부터 5(극심)까지입니다.</p>
-<div class="tablewrap"><table>
+<div class="tbl"><table>
 <tr><th>등급</th><th>대상</th><th>기준</th><th>주된 영향</th></tr>
 <tr><td><span class="pill r">R</span> 전파 소실</td><td>플레어 X선</td><td>R1 = M1, R2 = M5, R3 = X1, R4 = X10, R5 = X20</td><td>낮 쪽 단파 통신 저하·소실, 저주파 항법 신호 저하</td></tr>
 <tr><td><span class="pill s">S</span> 태양 방사선 폭풍</td><td>10 MeV 이상 양성자</td><td>S1 = 10 pfu, 이후 한 등급마다 10배(S5 = 10<sup>5</sup> pfu)</td><td>극지방 단파 흡수(PCA), 위성 고장, 우주인·고위도 비행 피폭</td></tr>
 <tr><td><span class="pill g">G</span> 지자기 폭풍</td><td>Kp 지수</td><td>G1 = Kp 5, G2 = 6, G3 = 7, G4 = 8, G5 = 9</td><td>전력망, 위성 운용, 단파 전파, GPS, 오로라</td></tr>
 </table></div>
-<p class="note">pfu(입자 플럭스 단위)는 1 cm²당, 1초당, 1스테라디안당 입자 수입니다. 실시간 등급은 NOAA 우주기상예보센터(swpc.noaa.gov)에서 확인할 수 있습니다.</p>
+<p class="small">pfu(입자 플럭스 단위)는 1 cm²당, 1초당, 1스테라디안당 입자 수입니다. 실시간 등급은 NOAA 우주기상예보센터(swpc.noaa.gov)에서 확인할 수 있습니다.</p>
 
 <h3>지상 관측</h3>
 
@@ -527,7 +519,7 @@
 
 <h4>총전자수(TEC)</h4>
 <p>TEC는 전리층의 <b>전체적인 전리 수준</b>을 나타냅니다. 위성과 수신기 사이에 단면적 1 m²의 기둥을 세웠을 때 그 안에 들어 있는 전자의 수입니다.</p>
-<p class="formula">TEC = ∫ n<sub>e</sub>(x) dx &nbsp;(수신기에서 위성까지 전자 밀도를 적분)</p>
+<p class="eq">TEC = ∫ n<sub>e</sub>(x) dx &nbsp;(수신기에서 위성까지 전자 밀도를 적분)</p>
 <p>GNSS 위성 신호의 보정 자료로 추정하며, 위도·우주기상 상태·하루 중 시각에 따라 달라집니다. 여러 수신기 자료를 모으면 전 세계 전리층 지도를 만들 수 있고, 3차원 영상(단층 촬영)도 가능합니다. 단위는 TECU(10<sup>16</sup> 전자/m²)입니다.</p>
 
 <figure class="fig"><button type="button" class="zoom" aria-label="그림 크게 보기"><img src="img/tj-32.jpg" alt="왼쪽: 전 세계 TEC 지도(2012년 5월 11일)" loading="lazy" decoding="async"></button><figcaption>왼쪽: 전 세계 TEC 지도(2012년 5월 11일). 아래 눈금은 TEC 값과 그에 따른 GPS L1 거리 오차(m)입니다. 오른쪽: 전리층 3차원 단층 영상.<span class="src">A. Tjulin, 「Space Weather」(EISCAT, 2013), 슬라이드 32</span></figcaption></figure>
@@ -602,8 +594,7 @@
 
 <!-- ===================================================== 9 -->
 <section id="s9">
-<p class="chap">제9장</p>
-<h2>무선사를 위한 태양 지수 읽기</h2>
+<h2><span class="no">9</span> 무선사를 위한 태양 지수 읽기 <span class="en">Solar Indices</span></h2>
 <p>“오늘 플럭스가 200까지 올랐고 K는 3이야.” 이 말을 듣고 밴드 상태를 짐작할 수 있다면 단파 DX에 큰 무기가 생깁니다. 아무리 좋은 장비를 갖춘 무선국이라도 이 숫자들을 이해하면 도움이 됩니다. 이 장은 Ian Poole(G3YWX)이 QST에 쓴 글을 바탕으로 합니다. 쓰이는 지수는 세 가지입니다. <b>태양 플럭스(SFI)</b>, 그리고 <b>A 지수와 K 지수</b>입니다.</p>
 
 <h3>먼저, 전리층 복습</h3>
@@ -631,7 +622,7 @@
 <p><b>A 지수</b>: K는 로그 척도라서 평균을 낼 수 없습니다. 그래서 하루 동안의 상태를 보려고 A 지수를 만들었습니다. 3시간마다의 K 값을 아래 표에 따라 a 값으로 바꾸고, 하루치 8개를 평균한 것이 그날의 A 지수입니다. 보통 100 안팎까지, 아주 심한 폭풍 때는 200 이상까지 오릅니다.</p>
 <p><b>Kp와 Ap</b>: 자기 교란은 지역마다 다를 수 있으므로 여러 관측소 값을 지구 전체로 평균합니다. Kp는 지자기 위도 44~60° 사이 관측소 13곳의 표준화된 K 평균이고, 1/3 단위로 나타냅니다(예: 5−는 4⅔, 5+는 5⅓). Ap는 하루 8개의 ap 값으로 정합니다.</p>
 
-<div class="tablewrap"><table class="center">
+<div class="tbl"><table class="c">
 <tr><th>A</th><th>K</th><th>상태</th></tr>
 <tr class="q"><td>0</td><td>0</td><td>조용함</td></tr>
 <tr class="q"><td>2</td><td>1</td><td>조용함</td></tr>
@@ -646,37 +637,35 @@
 <tr class="x"><td>208</td><td>8</td><td>매우 큰 폭풍</td></tr>
 <tr class="x"><td>400</td><td>9</td><td>매우 큰 폭풍</td></tr>
 </table></div>
-<p class="note">A와 K의 일반적인 관계(Poole 기사 표 1). Ap 기준으로는 Ap &gt; 29부터 폭풍, 29~50은 약한 폭풍, 50~100은 큰 폭풍, 100 이상은 심한 폭풍으로 봅니다.</p>
+<p class="small">A와 K의 일반적인 관계(Poole 기사 표 1). Ap 기준으로는 Ap &gt; 29부터 폭풍, 29~50은 약한 폭풍, 50~100은 큰 폭풍, 100 이상은 심한 폭풍으로 봅니다.</p>
 
 <h3>숫자를 읽는 법</h3>
 <p>가장 정확한 방법은 이 값들을 <b>전파 예측 프로그램</b>에 넣는 것입니다. 프로그램은 경로가 극지방을 지나는지(폭풍에 훨씬 민감함) 적도를 지나는지까지 따져 줍니다. 프로그램이 없어도 머릿속으로 꽤 잘 판단할 수 있습니다.</p>
 
-<div class="grid2">
-  <div class="card good"><p class="tag driver">태양 플럭스 — 높을수록 좋다</p>
-  <ul class="tight"><li>높을수록 높은 단파 밴드, 심지어 6 m까지 좋아집니다.</li><li><b>150 이상</b>이면 단파 상태가 좋고, <b>200 이상</b>이면 최고 수준입니다.</li><li>단, 그 수준이 며칠 유지되어야 F2층 전리가 쌓여 MUF가 올라갑니다.</li></ul></div>
-  <div class="card bad"><p class="tag resp">K 지수 — 낮을수록 좋다</p>
-  <ul class="tight"><li><b>0~1</b>: 조용함. 플럭스가 충분하면 좋은 상태</li><li><b>2~4</b>: 불안정~활발. 단파 상태가 나빠지기 시작</li><li><b>5</b>: 약한 폭풍, <b>6</b>: 큰 폭풍</li><li><b>7~9</b>: 매우 큰 폭풍. 단파 소실</li></ul></div>
+<div class="sum">
+  <div class="good"><b class="h">태양 플럭스 — 높을수록 좋다</b>
+  <ul><li>높을수록 높은 단파 밴드, 심지어 6 m까지 좋아집니다.</li><li><b>150 이상</b>이면 단파 상태가 좋고, <b>200 이상</b>이면 최고 수준입니다.</li><li>단, 그 수준이 며칠 유지되어야 F2층 전리가 쌓여 MUF가 올라갑니다.</li></ul></div>
+  <div class="bad"><b class="h">K 지수 — 낮을수록 좋다</b>
+  <ul><li><b>0~1</b>: 조용함. 플럭스가 충분하면 좋은 상태</li><li><b>2~4</b>: 불안정~활발. 단파 상태가 나빠지기 시작</li><li><b>5</b>: 약한 폭풍, <b>6</b>: 큰 폭풍</li><li><b>7~9</b>: 매우 큰 폭풍. 단파 소실</li></ul></div>
 </div>
 <p>지자기 활동은 MUF를 <b>끌어내립니다.</b> Ap·Kp가 높을수록 MUF가 많이 떨어지고, 얼마나 떨어지는지는 폭풍의 세기와 지속 시간에 따라 다릅니다. 지자기 폭풍과 전리층 폭풍은 서로 관련되어 있지만 같은 것은 아닙니다. 지자기 폭풍은 지구 자기장의 교란이고, 전리층 폭풍은 전리층의 교란입니다.</p>
 
-<div class="callout key">
+<div class="note">
   <b>한 줄 요약 (Poole의 경험칙).</b> 태양 플럭스와 K 지수를 확인하세요. <b>플럭스가 며칠째 150 이상이고 K가 2 미만</b>이면 밴드를 열어 보세요. 좋은 DX가 기다리고 있을 겁니다.
 </div>
-<p class="note">WWV 방송이 알려 주는 A·K 값은 미국 콜로라도주 볼더의 “중위도” 값이라 전 세계 상태를 대표하지 않을 수 있습니다. 요즘은 SWPC, SpaceWeatherLive 같은 사이트와 DX 클러스터에서 실시간 값을 바로 볼 수 있습니다.</p>
+<p class="small">WWV 방송이 알려 주는 A·K 값은 미국 콜로라도주 볼더의 “중위도” 값이라 전 세계 상태를 대표하지 않을 수 있습니다. 요즘은 SWPC, SpaceWeatherLive 같은 사이트와 DX 클러스터에서 실시간 값을 바로 볼 수 있습니다.</p>
 </section>
 
 <!-- ===================================================== 10 -->
 <section id="s10">
-<p class="chap">제10장</p>
-<h2>우주기상 용어 사전</h2>
+<h2><span class="no">10</span> 우주기상 용어 사전 <span class="en">Glossary</span></h2>
 <p>이 해설에 나온 용어와 그 밖의 우주기상 용어 약 80개를 한국어로 옮겨 별도 페이지에 정리했습니다. 검색창에 한글이나 영어로 입력하면 바로 찾을 수 있습니다.</p>
-<p class="center"><a class="btn big" href="glossary.html">우주기상 용어 사전 열기 →</a></p>
+<p class="center"><a class="btn" href="glossary.html">우주기상 용어 사전 열기 →</a></p>
 </section>
 
 <!-- ===================================================== 11 -->
 <section id="s11">
-<p class="chap">제11장</p>
-<h2>출처와 더 읽을거리</h2>
+<h2><span class="no">11</span> 출처와 더 읽을거리 <span class="en">References</span></h2>
 <p>이 해설은 아래 다섯 자료를 근거로 썼습니다. 그림은 두 가지로 나뉩니다. <b>실제 관측 영상과 데이터 그래프</b>(태양 영상, 오로라, 자력계 기록, 이오노그램 등)는 각 자료에서 원본 그대로 잘라 썼고, 그림마다 자료 이름과 슬라이드 번호, 원 제공처를 밝혔습니다. 이 그림들의 권리는 원저작자와 원 제공 기관에 있습니다. <b>설명용 도식</b>은 원 자료의 내용을 바탕으로 이 해설에서 한글로 새로 그렸습니다. 원 그림의 구성을 거의 그대로 따른 몇 장에만 그림 아래에 바탕이 된 그림을 밝혔습니다. 언론 보도 사진은 넣지 않았습니다.</p>
 <ol class="refs">
   <li><b>[Z]</b> Yihua Zheng, 「Introduction of Space Weather」, NASA Goddard 우주비행센터 Space Weather REDI 여름 과정 강의 자료, 2014.</li>
@@ -685,17 +674,18 @@
   <li><b>[P]</b> Ian Poole(G3YWX), 「Understanding Solar Indices」, QST, 2002년 9월호, 38~40쪽.</li>
   <li><b>[G]</b> 「Glossary of Space Weather related terms」(우주기상 관련 용어집). 문서에 작성 기관과 연도가 적혀 있지 않습니다.</li>
 </ol>
-<p class="note">그림 속에 다시 인용된 원 출처: NASA SDO, ESA/NASA SOHO, NASA STEREO, NOAA GOES·SUVI·SWPC, NASA Van Allen Probes(Johns Hopkins 응용물리연구소), The Aerospace Corporation, D. Odstrcil, L. Holt·C. Randall, D. Baker(LASP), Bhowmik &amp; Nandy(2018, Nature Communications), Cerruti 외(2008, Space Weather) 등.</p>
+<p class="small">그림 속에 다시 인용된 원 출처: NASA SDO, ESA/NASA SOHO, NASA STEREO, NOAA GOES·SUVI·SWPC, NASA Van Allen Probes(Johns Hopkins 응용물리연구소), The Aerospace Corporation, D. Odstrcil, L. Holt·C. Randall, D. Baker(LASP), Bhowmik &amp; Nandy(2018, Nature Communications), Cerruti 외(2008, Space Weather) 등.</p>
 </section>
 
 </main>
 
 <footer>
-  <p>우주기상 해설 · 아마추어 무선사를 위한 우주 환경 이야기</p>
-  <p><a href="glossary.html">용어 사전</a> · <a href="#top" id="toTopLink">맨 위로</a></p>
+  <p>우주기상 해설 · 근거 자료와 그림 출처는 11장에 정리했습니다.</p>
+  <p><a href="glossary.html">우주기상 용어 사전</a> · <a href="#toc">목차로</a></p>
 </footer>
+</div>
 
-<button type="button" class="totop" id="toTop" aria-label="맨 위로 가기">▲ 맨 위로</button>
+<a class="btn tocfab" id="tocFab" href="#toc" aria-label="목차로 가기">☰ 목차</a>
 
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="그림 크게 보기" hidden>
   <button type="button" class="btn lb-close" id="lbClose">✕ 닫기</button>

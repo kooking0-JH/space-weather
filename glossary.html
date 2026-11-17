@@ -7,40 +7,37 @@
 <meta name="description" content="우주기상 관련 영어 용어를 한국어로 풀어 쓴 검색형 용어 사전">
 <link rel="stylesheet" href="style.css">
 <style>
-.gh{max-width:860px;margin:0 auto;padding:34px 18px 10px}
-.gh h1{font-size:clamp(1.8rem,6vw,2.6rem);margin:6px 0 10px;line-height:1.2}
-.searchbar{position:sticky;top:0;z-index:50;background:rgba(11,16,32,.95);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
-.searchbar .in{max-width:860px;margin:0 auto;padding:10px 18px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.searchbar input{flex:1;min-width:200px;font-size:16px;padding:10px 14px;border-radius:10px;border:2px solid #3a4c85;background:#0f1730;color:#fff;font-family:inherit}
-.searchbar input:focus{outline:none;border-color:var(--acc2)}
-.cnt{color:var(--mute);font-size:.88rem;width:100%}
-.letters{display:flex;flex-wrap:wrap;gap:6px;max-width:860px;margin:6px auto 0;padding:0 18px}
-.letters .btn{min-width:40px;min-height:38px;padding:4px 0;font-size:.9rem}
-.terms{max-width:860px;margin:0 auto;padding:10px 18px 40px}
-.term{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0;scroll-margin-top:80px}
-.term h2{font-size:1.12rem;margin:0 0 4px;line-height:1.4}
-.term h2 .en{color:var(--acc);font-weight:800}
-.term h2 .ko{color:#fff;margin-left:8px}
-.term p{margin:0;font-size:.96rem;color:#d7deef}
-.term .see{font-size:.85rem;color:var(--mute);margin-top:6px}
-.empty{color:var(--mute);text-align:center;padding:30px}
-mark{background:#ffb34755;color:inherit;border-radius:3px}
+.searchbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);margin:0 -4px;padding:10px 4px}
+.searchbar .in{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.searchbar input{flex:1;min-width:200px;font:inherit;font-size:16px;padding:8px 12px;border-radius:8px;border:1.5px solid #b9c3d3;background:#fff;color:var(--ink)}
+.searchbar input:focus{outline:none;border-color:var(--blue)}
+.cnt{color:var(--sub);font-size:.86rem;width:100%}
+.letters{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}
+.letters .btn{min-width:38px;padding:4px 0;font-size:.86rem}
+.term{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:10px 0;background:#fff;scroll-margin-top:90px}
+.term h2{font-size:1.04rem;margin:0 0 .2em;padding:0;border:0;display:block}
+.term h2 .en{color:var(--blue-d);font-weight:800;font-size:1em}
+.term h2 .ko{margin-left:8px;font-weight:700}
+.term p{margin:0;font-size:.95rem}
+.empty{color:var(--sub);text-align:center;padding:30px}
+mark{background:#fff1b8;color:inherit;border-radius:3px}
 </style>
 </head>
 <body>
 
-<header class="gh">
-  <p class="kicker">우주기상 해설 · 부록</p>
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">우주기상 해설 · 부록</div>
   <h1>우주기상 용어 사전</h1>
-  <p class="lead">우주기상에 자주 나오는 영어 용어를 한국어로 옮기고 풀어 썼습니다. 한글이나 영어로 검색하세요.</p>
-  <p class="note">원문 출처: 「Glossary of Space Weather related terms」(우주기상 관련 용어집, 작성 기관·연도 표기 없음). 한국어 번역과 보충 설명은 이 해설의 작성자가 덧붙였습니다.</p>
-  <p><a class="btn ghost" href="index.html">← 우주기상 해설 본문으로</a></p>
+  <p class="lede">우주기상에 자주 나오는 영어 용어 77개를 한국어로 옮기고 풀어 썼습니다. 한글이나 영어로 검색할 수 있습니다.</p>
+  <div class="hero-links"><a class="btn alt" href="index.html">← 우주기상 해설 본문으로</a></div>
+  <p class="small">원문: 「Glossary of Space Weather related terms」(우주기상 관련 용어집, 작성 기관·연도 표기 없음). 한국어 번역과 보충 설명은 이 해설에서 덧붙였습니다.</p>
 </header>
 
 <div class="searchbar">
   <div class="in">
     <input id="q" type="search" placeholder="예: 플레어, CME, Kp, 오로라 …" aria-label="용어 검색">
-    <button type="button" class="btn" id="clear">지우기</button>
+    <button type="button" class="btn alt" id="clear">지우기</button>
     <span class="cnt" id="cnt" aria-live="polite"></span>
   </div>
 </div>
@@ -48,10 +45,12 @@ mark{background:#ffb34755;color:inherit;border-radius:3px}
 
 <main class="terms" id="terms"></main>
 
+
 <footer>
   <p><a href="index.html">우주기상 해설 본문</a> · <a href="#" id="top2">맨 위로</a></p>
 </footer>
-<button type="button" class="totop" id="toTop" aria-label="맨 위로 가기">▲ 맨 위로</button>
+</div>
+<button type="button" class="btn tocfab" id="toTop" aria-label="맨 위로 가기">▲ 맨 위로</button>
 
 <script>
 var G = [

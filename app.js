@@ -1,42 +1,15 @@
 (function(){
   'use strict';
 
-  /* ---------- 목차: 지금 읽는 장 표시 ---------- */
-  var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
-  var tocIn = document.querySelector('.toc-in');
-  var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
-  function mark(id){
-    links.forEach(function(a){
-      var on = a.getAttribute('href') === '#' + id;
-      a.classList.toggle('on', on);
-      if (on && tocIn) {
-        var l = a.offsetLeft - tocIn.clientWidth / 2 + a.clientWidth / 2;
-        tocIn.scrollTo ? tocIn.scrollTo({left: l, behavior: 'smooth'}) : (tocIn.scrollLeft = l);
-      }
-    });
+  /* ---------- 목차로 버튼: 목차 상자가 화면 밖으로 나가면 나타남 ---------- */
+  var fab = document.getElementById('tocFab'), tocBox = document.getElementById('toc'), ftBox = document.getElementById('ft');
+  var tocVisible = true, ftVisible = false;
+  function updFab(){ if (fab) fab.classList.toggle('show', !tocVisible && !ftVisible && window.scrollY > 400); }
+  if ('IntersectionObserver' in window) {
+    if (tocBox) new IntersectionObserver(function(es){ tocVisible = es[0].isIntersecting; updFab(); }).observe(tocBox);
+    if (ftBox) new IntersectionObserver(function(es){ ftVisible = es[0].isIntersecting; updFab(); }).observe(ftBox); // 고장 트리 버튼을 가리지 않도록
   }
-  var current = '';
-  function onScroll(){
-    var y = window.scrollY + 90, id = '';
-    for (var i = 0; i < secs.length; i++) { if (secs[i].offsetTop <= y) id = secs[i].id; }
-    if (id !== current) { current = id; mark(id); }
-    updTop();
-  }
-  // 맨 위로 버튼: 고장 트리가 화면에 보이면 숨김(단계 버튼을 가리지 않도록)
-  var ftVisible = false, ftBox = document.getElementById('ft');
-  function updTop(){
-    var tt = document.getElementById('toTop');
-    if (tt) tt.classList.toggle('show', window.scrollY > 700 && !ftVisible);
-  }
-  if (ftBox && 'IntersectionObserver' in window) {
-    new IntersectionObserver(function(es){ ftVisible = es[0].isIntersecting; updTop(); }).observe(ftBox);
-  }
-  window.addEventListener('scroll', onScroll, {passive: true});
-  onScroll();
-
-  function goTop(e){ if (e) e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); }
-  var tt = document.getElementById('toTop'); if (tt) tt.addEventListener('click', goTop);
-  var ttl = document.getElementById('toTopLink'); if (ttl) ttl.addEventListener('click', goTop);
+  window.addEventListener('scroll', updFab, {passive: true});
 
   /* ---------- 그림 크게 보기 ---------- */
   var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'),
