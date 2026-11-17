@@ -1,3 +1,58 @@
+/* ---------- 블로그(iframe) 삽입: 높이·보이는 범위 주고받기 (antenna-types 규약) ---------- */
+(function(){
+  if (window.self === window.top) return;
+  var last = 0, on = false;
+  function send(force){
+    if (!on) return;
+    var h = Math.ceil(document.body.getBoundingClientRect().height);
+    if (!force && Math.abs(h - last) < 2) return;
+    last = h;
+    try { window.parent.postMessage({type: 'antenna-types:height', height: h}, '*'); } catch(e){}
+  }
+  window.addEventListener('message', function(e){
+    var d = e.data;
+    if (!d || typeof d !== 'object') return;
+    if (d.type === 'antenna-types:ping'){
+      var first = !on;
+      if (!on){
+        on = true; window.__embedOn = true; document.documentElement.classList.add('embedded');
+        /* 블로그 안에서는 그림을 미리 불러와 높이가 늦게 바뀌지 않게 함 */
+        Array.prototype.forEach.call(document.querySelectorAll('img[loading="lazy"]'), function(i){ i.loading = 'eager'; });
+      }
+      send(true);
+      if (first) setTimeout(jumpHash, 200);
+    } else if (d.type === 'antenna-types:viewport'){
+      window.__embedView = {top: +d.top || 0, height: +d.height || 0};
+      document.dispatchEvent(new Event('embedview'));
+    }
+  });
+  if ('ResizeObserver' in window) new ResizeObserver(function(){ send(false); }).observe(document.body);
+  window.addEventListener('load', function(){ send(true); });
+  /* 목차 링크(#s5 등): 블로그 화면을 그 자리로 옮김 */
+  function scrollToEl(el){
+    var v = window.__embedView, H = v && v.height ? v.height : 800;
+    var y = el.getBoundingClientRect().top + window.scrollY - 70 + H / 2;
+    try { window.parent.postMessage({type: 'antenna-types:scrollto', y: y, smooth: true}, '*'); } catch(e){}
+    /* 그 사이 그림이 불러와져 자리가 바뀌었으면 한 번 더 맞춤 */
+    clearTimeout(scrollToEl.t);
+    scrollToEl.t = setTimeout(function(){
+      var y2 = el.getBoundingClientRect().top + window.scrollY - 70 + H / 2;
+      if (Math.abs(y2 - y) > 20) { try { window.parent.postMessage({type: 'antenna-types:scrollto', y: y2, smooth: false}, '*'); } catch(e){} }
+    }, 1200);
+  }
+  window.__embedScrollTo = scrollToEl;
+  function jumpHash(){
+    var t = location.hash && document.getElementById(location.hash.slice(1));
+    if (t) scrollToEl(t);
+  }
+  document.addEventListener('click', function(e){
+    if (!window.__embedOn) return;
+    var a = e.target.closest && e.target.closest('a[href^="#"]'); if (!a) return;
+    var t = document.getElementById(a.getAttribute('href').slice(1)); if (!t) return;
+    e.preventDefault(); scrollToEl(t);
+  });
+})();
+
 (function(){
   'use strict';
 
@@ -20,7 +75,10 @@
     lbImg.src = src; lbImg.alt = cap || '';
     lbCap.textContent = cap || '';
     lbScroll.classList.toggle('wide', !!wide);
-    lb.hidden = false; document.body.style.overflow = 'hidden';
+    var v = window.__embedOn && window.__embedView;
+    if (v && v.height) { lb.style.position = 'absolute'; lb.style.top = Math.max(0, v.top) + 'px'; lb.style.height = v.height + 'px'; lb.style.bottom = 'auto'; }
+    else { lb.style.position = ''; lb.style.top = ''; lb.style.height = ''; lb.style.bottom = ''; }
+    lb.hidden = false; if (!window.__embedOn) document.body.style.overflow = 'hidden';
     document.getElementById('lbClose').focus();
   }
   function closeLB(){
@@ -41,6 +99,10 @@
       }
     });
   }
+  document.addEventListener('embedview', function(){
+    var v = window.__embedView; if (!lb || lb.hidden || !v) return;
+    lb.style.top = Math.max(0, v.top) + 'px'; lb.style.height = v.height + 'px';
+  });
   document.querySelectorAll('.fig .zoom').forEach(function(b){
     if (b.id === 'ftZoom') return;
     b.addEventListener('click', function(){

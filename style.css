@@ -130,3 +130,7 @@ footer a{color:var(--blue)}
   .ft-bar .status{order:-1;width:100%;text-align:center}
 }
 [hidden]{display:none !important}
+
+/* 블로그(iframe) 안에서는 화면 고정 요소 숨김 */
+html.embedded .tocfab{display:none}
+html.embedded .lb{inset:auto;left:0;right:0}
